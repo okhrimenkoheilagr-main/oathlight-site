@@ -3,7 +3,7 @@
 // address. The key below is the project's publishable key: it is meant to be
 // public and grants nothing beyond those two functions.
 const SUPABASE_URL = 'https://asnfwejpjprthfcjgsog.supabase.co';
-const SUPABASE_KEY = '';
+const SUPABASE_KEY = 'sb_publishable_YDGAGgDem74--jT0EM96Cw_X2Kod4DT';
 
 const CALLS = {
   signup: (form, data) => ['join_waitlist', { p_email: data.get('email'), p_locale: form.dataset.lang || 'en' }],
