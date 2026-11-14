@@ -1,0 +1,502 @@
+{
+ "nav": {
+  "home": "Home",
+  "privacy": "Privacy policy",
+  "terms": "Terms of use",
+  "delete": "Delete your account",
+  "safety": "Safety standards",
+  "madeQuietly": "Made quietly",
+  "updated": "Last updated",
+  "contents": "Contents"
+ },
+ "forms": {
+  "done": "Thank you. You will hear once, when Oathlight is in Google Play.",
+  "failed": "That did not go through. Please write to hello@oathlight.app instead."
+ },
+ "home": {
+  "title": "Oathlight — a task tracker that never punishes you",
+  "description": "Ordinary tasks raise a character through five forms. Miss a day and nothing burns down. You simply do not move.",
+  "navWhat": "What it is",
+  "navHow": "How it works",
+  "navJoin": "Waiting list",
+  "eyebrowReleased": "Out now on Google Play",
+  "eyebrowPre": "In development · not yet in Google Play",
+  "h1": "A task tracker that never punishes you",
+  "lead": "Ordinary tasks — the shopping, the email, the walk — raise a character through five forms. Miss a day and nothing burns down. You simply do not move.",
+  "emailLabel": "Email address",
+  "joinButton": "Join the waiting list",
+  "formNote": "One email when it opens. No newsletter, no tracking, no third parties.",
+  "storeSmall": "Get it on",
+  "storeNote": "Free. Android first.",
+  "differentTitle": "What makes it different",
+  "cards": [
+   [
+    "A character that changes",
+    "Five forms on the way to level 42. Not a bar that fills — a shape that shifts, slowly enough that you notice when it does."
+   ],
+   [
+    "Nothing decays",
+    "No damage, no lost levels, no streak to break. A missed day is a day you did not move, and that is all it is."
+   ],
+   [
+    "Parties that end",
+    "Forty-eight hours beside two other wanderers, then it dissolves. Thirteen marks, no words. Nothing to type means no cruelty and no small talk."
+   ],
+   [
+    "One large, three medium, five small",
+    "The 1-3-5 day. Nine slots, and the day is full when they are full — not when the list is empty."
+   ]
+  ],
+  "howTitle": "How it works",
+  "steps": [
+   [
+    "Set the day",
+    "One large task, three medium, five small. It takes a minute and it is the only planning the app asks of you."
+   ],
+   [
+    "Do the ordinary things",
+    "Every task you finish is weight behind the character. Larger tasks carry more, as they should."
+   ],
+   [
+    "Sit by a fire, or don't",
+    "An anonymous party of three for forty-eight hours, marks only, adults only. When it ends it is gone, and nobody is waiting on you."
+   ],
+   [
+    "Come back whenever",
+    "After a day or after a month, your character is exactly where you left it. Progress waits."
+   ]
+  ],
+  "shotsTitle": "Inside the app",
+  "shotsNote": "Character art in progress — these are placeholders",
+  "shots": [
+   [
+    "Character screen",
+    "full-body art, form 3 of 5",
+    "The character at level 21, halfway through its forms."
+   ],
+   [
+    "The day",
+    "1-3-5 task list",
+    "Nine slots, filled once and left alone."
+   ],
+   [
+    "Party of three",
+    "thirteen marks, 48h counter",
+    "Three wanderers, briefly, without a word between you."
+   ]
+  ],
+  "joinTitle": "Be there on the first day",
+  "joinText": "Leave an address and you will hear once, when Oathlight is in Google Play. Nothing before that.",
+  "releasedTitle": "Start with tomorrow's list",
+  "releasedText": "Oathlight is in Google Play. Nine slots, one character, no penalties."
+ },
+ "delete": {
+  "kicker": "Account",
+  "title": "Delete your account",
+  "lead": "This page explains what deletion removes and how to ask for it. Nothing here tries to talk you out of it.",
+  "inAppTitle": "Fastest: delete it in the app",
+  "inAppText": "If you still have Oathlight installed, this takes about ten seconds and needs no email from us.",
+  "path": [
+   "Hero",
+   "Account",
+   "Delete account"
+  ],
+  "formTitle": "Request it without the app",
+  "formText": "For people who no longer have the app installed. Use the address the account was created with, so we can match the request to it.",
+  "emailLabel": "Account email",
+  "noteLabel": "Anything we should know (optional)",
+  "send": "Send the request",
+  "formDone": "Request received. We will confirm by email within seven days.",
+  "formAlt": "You can also write to [delete@oathlight.app](mailto:delete@oathlight.app) from the account address. Either way reaches the same person.",
+  "removedTitle": "What is removed",
+  "removed": [
+   "Your heroes and every form they have taken",
+   "Levels and all experience earned",
+   "Your whole task history, past and planned, with its notes and reasons",
+   "Party membership and the marks you sent",
+   "Your settings, reminders and notification tokens",
+   "The account itself and its email address"
+  ],
+  "removedNote": "This is permanent. There is no export, and nothing can be rebuilt from our side once the thirty days have passed.",
+  "keptNote": "One thing is kept: if you reported a party member, or were reported, that report stays for safety review, detached from your account.",
+  "warnFlag": "Read this part",
+  "warnTitle": "Deleting the account does not cancel a subscription",
+  "warnText": "Oathlight has no paid plan today. If you ever buy a subscription through Google Play, it is held by Google, not by us — deleting your Oathlight account leaves it running. Cancel it separately in the Play Store: *Play Store → your profile → Payments and subscriptions → Subscriptions*.",
+  "timingTitle": "Timing",
+  "timing": [
+   [
+    "7 days",
+    "to confirm a request made on this page — usually the same day. In the app it is immediate."
+   ],
+   [
+    "30 days",
+    "to change your mind — sign in again in that window and everything returns untouched"
+   ],
+   [
+    "After that",
+    "the data is erased from live systems, and from backups within a further 30 days"
+   ]
+  ]
+ },
+ "privacy": {
+  "kicker": "Legal",
+  "title": "Privacy policy",
+  "lead": "The short version: Oathlight keeps what it needs to run your tasks and your hero, shows none of it to advertisers, and deletes it when you ask.",
+  "sections": [
+   {
+    "title": "What this covers",
+    "blocks": [
+     [
+      "p",
+      "This policy applies to the Oathlight mobile application and to this website, oathlight.app. The person responsible for the data described here is Oleh Okhrimenko, an individual developer based in Ukraine. Write to [privacy@oathlight.app](mailto:privacy@oathlight.app)."
+     ],
+     [
+      "p",
+      "It takes effect on the date above. If it changes in a way that matters, the app says so before the change applies."
+     ]
+    ]
+   },
+   {
+    "title": "What we collect",
+    "blocks": [
+     [
+      "h",
+      "Given by you"
+     ],
+     [
+      "ul",
+      [
+       "Your email address and a password. The password is stored only as a salted hash; nobody can read it.",
+       "An account name and the city you choose for your time zone. We never ask for or read your device location.",
+       "Your hero's name and class.",
+       "Your tasks: titles, notes, the reason you wrote for a task, tags, dates, times and anchors.",
+       "Your settings: language, theme, and whether reminders and nudges are on."
+      ]
+     ],
+     [
+      "h",
+      "Created by using the app"
+     ],
+     [
+      "ul",
+      [
+       "Completion records, experience and levels.",
+       "A notification token for your device, if you allow notifications.",
+       "For parties: whether you passed the age check — the result only, never a birth date — your party membership and the marks you send.",
+       "Reports you file about a party member."
+      ]
+     ],
+     [
+      "h",
+      "On this website"
+     ],
+     [
+      "ul",
+      [
+       "The email address you leave on the waiting list, and the language of the page you left it on.",
+       "The address and note you send with an account deletion request."
+      ]
+     ],
+     [
+      "quote",
+      "Oathlight contains no analytics, no advertising identifiers and no third-party trackers. This website sets no cookies."
+     ]
+    ]
+   },
+   {
+    "title": "How it is used",
+    "blocks": [
+     [
+      "p",
+      "To run the app: showing your tasks, counting experience, keeping your hero the same on every device you sign in on."
+     ],
+     [
+      "p",
+      "To speak when you asked: reminders for tasks you gave a time or an anchor, and, only if you switched them on, a single gentle nudge on quiet days."
+     ],
+     [
+      "p",
+      "To answer you: support mail and deletion requests are read and answered by a person."
+     ],
+     [
+      "p",
+      "Never for advertising, profiling or sale. Your data is not sold or shared for marketing, and it is not used to train anything."
+     ],
+     [
+      "h",
+      "Who processes it for us"
+     ],
+     [
+      "ul",
+      [
+       "Supabase — hosts the database and sign-in.",
+       "Google (Firebase Cloud Messaging) and Expo — deliver push notifications to your device, if you allow them.",
+       "Google Play — distributes the app and, if a paid plan is ever offered, handles payment. We never see card details."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Anonymous parties",
+    "blocks": [
+     [
+      "p",
+      "A party is three people for forty-eight hours. It is optional and open only to adults (18+)."
+     ],
+     [
+      "p",
+      "Other members see a label such as “Wanderer”, your hero's class, form and level, and the marks you send. They cannot see your email, your account name, your hero's name, your tasks or your history. There is no text, no images and nothing to type."
+     ],
+     [
+      "p",
+      "To place you with people awake at similar hours we use your time-zone offset, never a location. Where Google Play offers it, the age check uses Play's age signal; otherwise you state your month and year of birth, the app works out the answer on your device, and only that answer is stored."
+     ]
+    ]
+   },
+   {
+    "title": "Storage and deletion",
+    "blocks": [
+     [
+      "p",
+      "Data is held on Supabase's servers and sent over encrypted connections. You can delete your account in the app or through the [account deletion page](/delete.html)."
+     ],
+     [
+      "table",
+      [
+       "Data",
+       "Kept for"
+      ],
+      [
+       [
+        "Account, heroes, tasks, settings",
+        "until you delete the account, then 30 days in which you can undo it"
+       ],
+       [
+        "Backups",
+        "up to 30 days after erasure from live systems"
+       ],
+       [
+        "Party membership and marks",
+        "the 48 hours of the party, then removed with the party"
+       ],
+       [
+        "Reports about a party member",
+        "kept for safety review even if either account is deleted, without the account attached"
+       ],
+       [
+        "Waiting-list address",
+        "until the one launch email is sent, then deleted"
+       ],
+       [
+        "Deletion requests",
+        "90 days after they are completed"
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Your rights",
+    "blocks": [
+     [
+      "p",
+      "You can ask to see the data held about you, to have it corrected, to receive a copy, or to have it erased. If you are in the EU, the EEA or the UK these are rights under the GDPR, and you may also complain to your data protection authority. We rely on the contract with you to run the app, and on your consent for notifications and the waiting list; consent can be withdrawn at any time."
+     ],
+     [
+      "p",
+      "Write to [privacy@oathlight.app](mailto:privacy@oathlight.app). Requests are answered by a person within 30 days."
+     ]
+    ]
+   },
+   {
+    "title": "Children",
+    "blocks": [
+     [
+      "p",
+      "Oathlight is not directed to children under 13, and we do not knowingly collect their data. Parties are closed to anyone under 18. If you believe a child has given us data, write to us and it will be removed."
+     ]
+    ]
+   },
+   {
+    "title": "Contact",
+    "blocks": [
+     [
+      "p",
+      "Oleh Okhrimenko, Ukraine · [privacy@oathlight.app](mailto:privacy@oathlight.app) · general questions: [hello@oathlight.app](mailto:hello@oathlight.app)"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "kicker": "Legal",
+  "title": "Terms of use",
+  "lead": "Plain terms for a small app. Using Oathlight means you accept them.",
+  "sections": [
+   {
+    "title": "The agreement",
+    "blocks": [
+     [
+      "p",
+      "These terms are between you and Oleh Okhrimenko, the individual developer of Oathlight, based in Ukraine. By creating an account or using the app you accept them. If you do not, do not use the app."
+     ]
+    ]
+   },
+   {
+    "title": "Your account",
+    "blocks": [
+     [
+      "ul",
+      [
+       "You must be at least 13 to use Oathlight, and at least 18 to join a party.",
+       "One person per account. Keep access to the email address it uses — it is the only way to recover it.",
+       "You are responsible for what is done under your account."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Acceptable use",
+    "blocks": [
+     [
+      "p",
+      "A short list of things that will end an account:"
+     ],
+     [
+      "ul",
+      [
+       "abusing or harassing other members, by any means;",
+       "trying to break, overload or get around the service or its limits;",
+       "farming experience with scripts or automation;",
+       "using Oathlight for anything unlawful, including anything that harms children — see the [safety standards](/safety.html)."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Parties and marks",
+    "blocks": [
+     [
+      "p",
+      "Parties are anonymous, last forty-eight hours and allow only the built-in marks. You may leave at any time. You can report a member from inside the party; reports are reviewed by a person and may lead to removal from parties or from Oathlight. We may switch parties off entirely, for everyone, without notice, if safety requires it."
+     ]
+    ]
+   },
+   {
+    "title": "Content and ownership",
+    "blocks": [
+     [
+      "p",
+      "What you write — task titles, notes, reasons — stays yours; you give us only the permission needed to store it and show it back to you. The app, its art, its characters and the name Oathlight stay ours."
+     ]
+    ]
+   },
+   {
+    "title": "Price",
+    "blocks": [
+     [
+      "p",
+      "Oathlight is free today. A paid plan may be introduced later; nothing will be charged without your explicit purchase through Google Play, and what you already earned will not be taken away."
+     ]
+    ]
+   },
+   {
+    "title": "Ending the agreement",
+    "blocks": [
+     [
+      "p",
+      "You can leave at any time — see the [account deletion page](/delete.html). We may suspend or end an account that breaks these terms; where the breach is not severe we will say why and give you a chance to respond."
+     ]
+    ]
+   },
+   {
+    "title": "Liability",
+    "blocks": [
+     [
+      "p",
+      "The service is provided as it is, without warranties. Oathlight is a task tracker, not medical, psychological or professional advice, and it cannot promise your list gets shorter. To the extent the law allows, we are not liable for indirect or consequential loss. Nothing here limits rights you have as a consumer that cannot be limited by contract."
+     ]
+    ]
+   },
+   {
+    "title": "Changes and contact",
+    "blocks": [
+     [
+      "p",
+      "If these terms change in a way that matters, the app will tell you before the change applies. The law of Ukraine governs them, without removing protections your own country's consumer law gives you. Write to [hello@oathlight.app](mailto:hello@oathlight.app)."
+     ]
+    ]
+   }
+  ]
+ },
+ "safety": {
+  "kicker": "Safety",
+  "title": "Child safety standards",
+  "lead": "Oathlight has zero tolerance for child sexual abuse and exploitation (CSAE). This page states our standards and how to reach us.",
+  "sections": [
+   {
+    "title": "What is prohibited",
+    "blocks": [
+     [
+      "p",
+      "Any content or behaviour that sexually exploits, abuses or endangers children is prohibited on Oathlight. That includes child sexual abuse material (CSAM), grooming, sextortion, the sexualisation of minors, and any attempt to use Oathlight to contact a child for such a purpose."
+     ],
+     [
+      "p",
+      "An account involved in any of this is removed permanently."
+     ]
+    ]
+   },
+   {
+    "title": "How the app is built to prevent it",
+    "blocks": [
+     [
+      "ul",
+      [
+       "Parties — the only place members meet — are closed to anyone under 18, using Google Play's age signal or a neutral age check.",
+       "There is no text, no images, no voice, no links and no profiles. Members can exchange only thirteen built-in marks.",
+       "Members are anonymous to each other and cannot find, follow or contact one another outside a party.",
+       "A party dissolves after forty-eight hours and cannot be extended.",
+       "Parties can be switched off for everyone at once if we ever need to."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Reporting",
+    "blocks": [
+     [
+      "p",
+      "Inside a party, every member can be reported from the party screen; no typing is needed. Reports are reviewed by a person."
+     ],
+     [
+      "p",
+      "You can also write to [safety@oathlight.app](mailto:safety@oathlight.app) at any time, with or without an account."
+     ]
+    ]
+   },
+   {
+    "title": "What we do with a report",
+    "blocks": [
+     [
+      "p",
+      "We review it, remove the member from parties or from Oathlight where warranted, and keep the report for safety review even if an account is later deleted."
+     ],
+     [
+      "p",
+      "Where we become aware of child sexual abuse material or a child in danger, we report it to the competent authorities — the National Center for Missing & Exploited Children (NCMEC) and the relevant national law-enforcement body — and we comply with applicable child safety laws."
+     ]
+    ]
+   },
+   {
+    "title": "Point of contact",
+    "blocks": [
+     [
+      "p",
+      "For child safety matters, including enquiries from Google Play and from authorities: Oleh Okhrimenko · [safety@oathlight.app](mailto:safety@oathlight.app)."
+     ]
+    ]
+   }
+  ]
+ }
+}
