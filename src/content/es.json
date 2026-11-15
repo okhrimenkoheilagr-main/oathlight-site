@@ -1,0 +1,502 @@
+{
+ "nav": {
+  "home": "Inicio",
+  "privacy": "Política de privacidad",
+  "terms": "Condiciones de uso",
+  "delete": "Eliminar tu cuenta",
+  "safety": "Normas de seguridad",
+  "madeQuietly": "Hecho sin ruido",
+  "updated": "Última actualización:",
+  "contents": "Contenido"
+ },
+ "forms": {
+  "done": "Gracias. Recibirás un único aviso, cuando Oathlight esté en Google Play.",
+  "failed": "No se pudo enviar. Escribe, por favor, a hello@oathlight.app."
+ },
+ "home": {
+  "title": "Oathlight: un gestor de tareas que nunca te castiga",
+  "description": "Las tareas corrientes hacen pasar a un personaje por cinco formas. Si fallas un día no se quema nada. Simplemente no avanzas.",
+  "navWhat": "Qué es",
+  "navHow": "Cómo funciona",
+  "navJoin": "Lista de espera",
+  "eyebrowReleased": "Ya en Google Play",
+  "eyebrowPre": "En desarrollo · aún no está en Google Play",
+  "h1": "Un gestor de tareas que nunca te castiga",
+  "lead": "Las tareas corrientes —la compra, el correo, el paseo— hacen pasar a un personaje por cinco formas. Si fallas un día no se quema nada. Simplemente no avanzas.",
+  "emailLabel": "Correo electrónico",
+  "joinButton": "Unirme a la lista de espera",
+  "formNote": "Un solo correo cuando abra. Sin boletines, sin rastreo, sin terceros.",
+  "storeSmall": "Disponible en",
+  "storeNote": "Gratis. Primero en Android.",
+  "differentTitle": "Qué lo hace distinto",
+  "cards": [
+   [
+    "Un personaje que cambia",
+    "Cinco formas en el camino al nivel 42. No una barra que se llena: una figura que cambia, lo bastante despacio como para que lo notes."
+   ],
+   [
+    "Nada se deteriora",
+    "Sin daño, sin niveles perdidos, sin racha que romper. Un día fallado es un día en que no avanzaste, y nada más."
+   ],
+   [
+    "Grupos que terminan",
+    "Cuarenta y ocho horas junto a otros dos caminantes, y el grupo se disuelve. Trece marcas, ninguna palabra. Sin nada que escribir no hay crueldad ni charla vacía."
+   ],
+   [
+    "Una grande, tres medianas, cinco pequeñas",
+    "El día 1-3-5. Nueve huecos, y el día está lleno cuando ellos lo están, no cuando la lista queda vacía."
+   ]
+  ],
+  "howTitle": "Cómo funciona",
+  "steps": [
+   [
+    "Prepara el día",
+    "Una tarea grande, tres medianas, cinco pequeñas. Lleva un minuto y es la única planificación que te pide la app."
+   ],
+   [
+    "Haz las cosas corrientes",
+    "Cada tarea que terminas es peso detrás del personaje. Las tareas grandes pesan más, como debe ser."
+   ],
+   [
+    "Siéntate junto a una hoguera, o no",
+    "Un grupo anónimo de tres durante cuarenta y ocho horas, solo marcas, solo adultos. Cuando termina desaparece, y nadie te espera."
+   ],
+   [
+    "Vuelve cuando quieras",
+    "Tras un día o tras un mes, tu personaje está justo donde lo dejaste. El progreso espera."
+   ]
+  ],
+  "shotsTitle": "Dentro de la app",
+  "shotsNote": "Ilustraciones de personajes en curso: estas son provisionales",
+  "shots": [
+   [
+    "Pantalla del personaje",
+    "ilustración de cuerpo entero, forma 3 de 5",
+    "El personaje en el nivel 21, a medio camino de sus formas."
+   ],
+   [
+    "El día",
+    "lista de tareas 1-3-5",
+    "Nueve huecos, rellenados una vez y dejados en paz."
+   ],
+   [
+    "Grupo de tres",
+    "trece marcas, contador de 48 h",
+    "Tres caminantes, brevemente, sin una palabra entre vosotros."
+   ]
+  ],
+  "joinTitle": "Está aquí el primer día",
+  "joinText": "Deja una dirección y recibirás un único aviso, cuando Oathlight esté en Google Play. Nada antes.",
+  "releasedTitle": "Empieza por la lista de mañana",
+  "releasedText": "Oathlight está en Google Play. Nueve huecos, un personaje, ningún castigo."
+ },
+ "delete": {
+  "kicker": "Cuenta",
+  "title": "Eliminar tu cuenta",
+  "lead": "Esta página explica qué borra la eliminación y cómo pedirla. Nada aquí intenta convencerte de lo contrario.",
+  "inAppTitle": "Lo más rápido: eliminarla en la app",
+  "inAppText": "Si aún tienes Oathlight instalado, lleva unos diez segundos y no necesita ningún correo nuestro.",
+  "path": [
+   "Héroe",
+   "Cuenta",
+   "Eliminar la cuenta"
+  ],
+  "formTitle": "Pedirlo sin la app",
+  "formText": "Para quienes ya no tienen la app instalada. Usa la dirección con la que se creó la cuenta, para que podamos vincular la solicitud.",
+  "emailLabel": "Correo de la cuenta",
+  "noteLabel": "Algo que debamos saber (opcional)",
+  "send": "Enviar la solicitud",
+  "formDone": "Solicitud recibida. La confirmaremos por correo en un plazo de siete días.",
+  "formAlt": "También puedes escribir a [delete@oathlight.app](mailto:delete@oathlight.app) desde la dirección de la cuenta. Ambas vías llegan a la misma persona.",
+  "removedTitle": "Qué se borra",
+  "removed": [
+   "Tus héroes y todas las formas que han tomado",
+   "Los niveles y toda la experiencia ganada",
+   "Todo tu historial de tareas, pasadas y planeadas, con sus notas y motivos",
+   "Tu participación en grupos y las marcas que enviaste",
+   "Tus ajustes, recordatorios y tokens de notificación",
+   "La propia cuenta y su dirección de correo"
+  ],
+  "removedNote": "Es permanente. No hay exportación, y por nuestra parte no se puede reconstruir nada una vez pasados los treinta días.",
+  "keptNote": "Se conserva una cosa: si denunciaste a un miembro de un grupo, o te denunciaron, esa denuncia se guarda para la revisión de seguridad, desvinculada de tu cuenta.",
+  "warnFlag": "Lee esta parte",
+  "warnTitle": "Eliminar la cuenta no cancela una suscripción",
+  "warnText": "Oathlight no tiene hoy ningún plan de pago. Si alguna vez compras una suscripción a través de Google Play, la gestiona Google, no nosotros: eliminar tu cuenta de Oathlight la deja activa. Cancélala aparte en Play Store: *Play Store → tu perfil → Pagos y suscripciones → Suscripciones*.",
+  "timingTitle": "Plazos",
+  "timing": [
+   [
+    "7 días",
+    "para confirmar una solicitud hecha en esta página; normalmente el mismo día. En la app es inmediato."
+   ],
+   [
+    "30 días",
+    "para cambiar de opinión: vuelve a iniciar sesión en ese plazo y todo regresa intacto"
+   ],
+   [
+    "Después",
+    "los datos se borran de los sistemas activos y, en otros 30 días, de las copias de seguridad"
+   ]
+  ]
+ },
+ "privacy": {
+  "kicker": "Legal",
+  "title": "Política de privacidad",
+  "lead": "En pocas palabras: Oathlight guarda lo que necesita para llevar tus tareas y tu héroe, no muestra nada de ello a anunciantes y lo borra cuando lo pides.",
+  "sections": [
+   {
+    "title": "Qué abarca",
+    "blocks": [
+     [
+      "p",
+      "Esta política se aplica a la aplicación móvil Oathlight y a este sitio web, oathlight.app. El responsable de los datos aquí descritos es Oleh Okhrimenko, desarrollador individual establecido en Ucrania. Escribe a [privacy@oathlight.app](mailto:privacy@oathlight.app)."
+     ],
+     [
+      "p",
+      "Entra en vigor en la fecha indicada arriba. Si cambia en algo importante, la app lo dirá antes de que el cambio se aplique."
+     ]
+    ]
+   },
+   {
+    "title": "Qué recogemos",
+    "blocks": [
+     [
+      "h",
+      "Lo que nos das"
+     ],
+     [
+      "ul",
+      [
+       "Tu dirección de correo y una contraseña. La contraseña solo se guarda como un hash con sal; nadie puede leerla.",
+       "Un nombre de cuenta y la ciudad que eliges para tu zona horaria. Nunca pedimos ni leemos la ubicación de tu dispositivo.",
+       "El nombre y la clase de tu héroe.",
+       "Tus tareas: títulos, notas, el motivo que escribiste para una tarea, etiquetas, fechas, horas y anclas.",
+       "Tus ajustes: idioma, tema y si los recordatorios y avisos están activados."
+      ]
+     ],
+     [
+      "h",
+      "Lo que se crea al usar la app"
+     ],
+     [
+      "ul",
+      [
+       "Registros de tareas completadas, experiencia y niveles.",
+       "Un token de notificaciones de tu dispositivo, si permites las notificaciones.",
+       "Para los grupos: si superaste la comprobación de edad —solo el resultado, nunca una fecha de nacimiento—, tu participación en el grupo y las marcas que envías.",
+       "Las denuncias que presentas sobre un miembro de un grupo."
+      ]
+     ],
+     [
+      "h",
+      "En este sitio web"
+     ],
+     [
+      "ul",
+      [
+       "La dirección de correo que dejas en la lista de espera y el idioma de la página en la que la dejaste.",
+       "La dirección y la nota que envías con una solicitud de eliminación de cuenta."
+      ]
+     ],
+     [
+      "quote",
+      "Oathlight no contiene analítica, identificadores publicitarios ni rastreadores de terceros. Este sitio web no instala cookies."
+     ]
+    ]
+   },
+   {
+    "title": "Cómo se usa",
+    "blocks": [
+     [
+      "p",
+      "Para que la app funcione: mostrar tus tareas, contar la experiencia y mantener a tu héroe igual en cada dispositivo en el que inicias sesión."
+     ],
+     [
+      "p",
+      "Para hablarte cuando lo pediste: recordatorios de las tareas a las que pusiste una hora o un ancla y, solo si los activaste, un único aviso suave en los días tranquilos."
+     ],
+     [
+      "p",
+      "Para responderte: los correos de ayuda y las solicitudes de eliminación los lee y responde una persona."
+     ],
+     [
+      "p",
+      "Nunca para publicidad, elaboración de perfiles ni venta. Tus datos no se venden, no se comparten con fines de marketing y no se usan para entrenar nada."
+     ],
+     [
+      "h",
+      "Quién los trata por nosotros"
+     ],
+     [
+      "ul",
+      [
+       "Supabase: aloja la base de datos y el inicio de sesión.",
+       "Google (Firebase Cloud Messaging) y Expo: entregan las notificaciones push a tu dispositivo, si las permites.",
+       "Google Play: distribuye la app y, si algún día hay un plan de pago, gestiona el cobro. Nunca vemos los datos de la tarjeta."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Grupos anónimos",
+    "blocks": [
+     [
+      "p",
+      "Un grupo son tres personas durante cuarenta y ocho horas. Es opcional y está abierto solo a adultos (mayores de 18)."
+     ],
+     [
+      "p",
+      "Los demás miembros ven una denominación como «Caminante», la clase, la forma y el nivel de tu héroe y las marcas que envías. No pueden ver tu correo, tu nombre de cuenta, el nombre de tu héroe, tus tareas ni tu historial. No hay texto, ni imágenes, ni nada que escribir."
+     ],
+     [
+      "p",
+      "Para juntarte con personas despiertas a horas parecidas usamos el desfase de tu zona horaria, nunca una ubicación. Donde Google Play lo ofrece, la comprobación de edad usa la señal de edad de Play; en caso contrario indicas tu mes y año de nacimiento, la app calcula la respuesta en tu dispositivo y solo se guarda esa respuesta."
+     ]
+    ]
+   },
+   {
+    "title": "Conservación y eliminación",
+    "blocks": [
+     [
+      "p",
+      "Los datos se alojan en los servidores de Supabase y se envían por conexiones cifradas. Puedes eliminar tu cuenta en la app o mediante la [página de eliminación de cuenta](/delete.html)."
+     ],
+     [
+      "table",
+      [
+       "Datos",
+       "Se conservan"
+      ],
+      [
+       [
+        "Cuenta, héroes, tareas, ajustes",
+        "hasta que elimines la cuenta, y después 30 días en los que puedes deshacerlo"
+       ],
+       [
+        "Copias de seguridad",
+        "hasta 30 días después del borrado de los sistemas activos"
+       ],
+       [
+        "Participación en el grupo y marcas",
+        "las 48 horas del grupo; luego se eliminan con él"
+       ],
+       [
+        "Denuncias sobre un miembro",
+        "se conservan para la revisión de seguridad aunque se elimine cualquiera de las cuentas, sin vínculo con la cuenta"
+       ],
+       [
+        "Dirección de la lista de espera",
+        "hasta que se envíe el único correo de lanzamiento; después se borra"
+       ],
+       [
+        "Solicitudes de eliminación",
+        "90 días después de completarse"
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Tus derechos",
+    "blocks": [
+     [
+      "p",
+      "Puedes pedir ver los datos que tenemos sobre ti, que se corrijan, recibir una copia o que se borren. Si estás en la UE, el EEE o el Reino Unido, son derechos reconocidos por el RGPD, y también puedes reclamar ante tu autoridad de protección de datos. Nos basamos en el contrato contigo para que la app funcione, y en tu consentimiento para las notificaciones y la lista de espera; el consentimiento puede retirarse en cualquier momento."
+     ],
+     [
+      "p",
+      "Escribe a [privacy@oathlight.app](mailto:privacy@oathlight.app). Una persona responde a las solicitudes en un plazo de 30 días."
+     ]
+    ]
+   },
+   {
+    "title": "Menores",
+    "blocks": [
+     [
+      "p",
+      "Oathlight no está dirigido a menores de 13 años, y no recogemos sus datos a sabiendas. Los grupos están cerrados a cualquier persona menor de 18. Si crees que un menor nos ha facilitado datos, escríbenos y se eliminarán."
+     ]
+    ]
+   },
+   {
+    "title": "Contacto",
+    "blocks": [
+     [
+      "p",
+      "Oleh Okhrimenko, Ucrania · [privacy@oathlight.app](mailto:privacy@oathlight.app) · consultas generales: [hello@oathlight.app](mailto:hello@oathlight.app)"
+     ]
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "kicker": "Legal",
+  "title": "Condiciones de uso",
+  "lead": "Condiciones sencillas para una app pequeña. Usar Oathlight significa aceptarlas.",
+  "sections": [
+   {
+    "title": "El acuerdo",
+    "blocks": [
+     [
+      "p",
+      "Estas condiciones son entre tú y Oleh Okhrimenko, desarrollador individual de Oathlight, establecido en Ucrania. Al crear una cuenta o usar la app las aceptas. Si no las aceptas, no uses la app."
+     ]
+    ]
+   },
+   {
+    "title": "Tu cuenta",
+    "blocks": [
+     [
+      "ul",
+      [
+       "Debes tener al menos 13 años para usar Oathlight, y al menos 18 para unirte a un grupo.",
+       "Una cuenta por persona. Conserva el acceso a la dirección de correo de la cuenta: es la única forma de recuperarla.",
+       "Eres responsable de lo que se haga con tu cuenta."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Uso aceptable",
+    "blocks": [
+     [
+      "p",
+      "Una lista breve de lo que pone fin a una cuenta:"
+     ],
+     [
+      "ul",
+      [
+       "insultar o acosar a otros miembros, por cualquier medio;",
+       "intentar romper, sobrecargar o eludir el servicio o sus límites;",
+       "acumular experiencia con scripts o automatización;",
+       "usar Oathlight para algo ilegal, incluido todo lo que dañe a menores; consulta las [normas de seguridad](/safety.html)."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Grupos y marcas",
+    "blocks": [
+     [
+      "p",
+      "Los grupos son anónimos, duran cuarenta y ocho horas y solo permiten las marcas integradas. Puedes salir cuando quieras. Se puede denunciar a un miembro desde el propio grupo; las denuncias las revisa una persona y pueden suponer la expulsión de los grupos o de Oathlight. Podemos desactivar los grupos por completo, para todos y sin aviso, si la seguridad lo exige."
+     ]
+    ]
+   },
+   {
+    "title": "Contenido y propiedad",
+    "blocks": [
+     [
+      "p",
+      "Lo que escribes —títulos de tareas, notas, motivos— sigue siendo tuyo; solo nos das el permiso necesario para guardarlo y mostrártelo. La app, sus ilustraciones, sus personajes y el nombre Oathlight siguen siendo nuestros."
+     ]
+    ]
+   },
+   {
+    "title": "Precio",
+    "blocks": [
+     [
+      "p",
+      "Oathlight es gratuito hoy. Más adelante podría ofrecerse un plan de pago; no se cobrará nada sin tu compra expresa a través de Google Play, y lo que ya hayas ganado no se te quitará."
+     ]
+    ]
+   },
+   {
+    "title": "Fin del acuerdo",
+    "blocks": [
+     [
+      "p",
+      "Puedes irte cuando quieras; consulta la [página de eliminación de cuenta](/delete.html). Podemos suspender o cerrar una cuenta que incumpla estas condiciones; si el incumplimiento no es grave, diremos por qué y te daremos ocasión de responder."
+     ]
+    ]
+   },
+   {
+    "title": "Responsabilidad",
+    "blocks": [
+     [
+      "p",
+      "El servicio se ofrece tal cual, sin garantías. Oathlight es un gestor de tareas, no un consejo médico, psicológico ni profesional, y no puede prometer que tu lista se acorte. En la medida en que la ley lo permita, no respondemos de daños indirectos. Nada de esto limita los derechos que tienes como consumidor y que no pueden limitarse por contrato."
+     ]
+    ]
+   },
+   {
+    "title": "Cambios y contacto",
+    "blocks": [
+     [
+      "p",
+      "Si estas condiciones cambian en algo importante, la app te lo dirá antes de que el cambio se aplique. Se rigen por la ley de Ucrania, sin privarte de la protección que te da la normativa de consumo de tu país. Escribe a [hello@oathlight.app](mailto:hello@oathlight.app)."
+     ]
+    ]
+   }
+  ]
+ },
+ "safety": {
+  "kicker": "Seguridad",
+  "title": "Normas de seguridad infantil",
+  "lead": "Oathlight tiene tolerancia cero con el abuso y la explotación sexual infantil (CSAE). Esta página recoge nuestras normas y cómo contactarnos.",
+  "sections": [
+   {
+    "title": "Qué está prohibido",
+    "blocks": [
+     [
+      "p",
+      "En Oathlight está prohibido cualquier contenido o conducta que explote sexualmente a menores, abuse de ellos o los ponga en peligro. Esto incluye el material de abuso sexual infantil (CSAM), el grooming, la sextorsión, la sexualización de menores y cualquier intento de usar Oathlight para contactar con un menor con ese fin."
+     ],
+     [
+      "p",
+      "Una cuenta implicada en cualquiera de estos hechos se elimina de forma permanente."
+     ]
+    ]
+   },
+   {
+    "title": "Cómo está hecha la app para impedirlo",
+    "blocks": [
+     [
+      "ul",
+      [
+       "Los grupos —el único lugar donde los miembros coinciden— están cerrados a cualquier persona menor de 18, mediante la señal de edad de Google Play o una comprobación de edad neutral.",
+       "No hay texto, ni imágenes, ni voz, ni enlaces, ni perfiles. Los miembros solo pueden intercambiar trece marcas integradas.",
+       "Los miembros son anónimos entre sí y no pueden encontrarse, seguirse ni contactarse fuera de un grupo.",
+       "Un grupo se disuelve a las cuarenta y ocho horas y no se puede prolongar.",
+       "Los grupos pueden desactivarse para todos a la vez si alguna vez hace falta."
+      ]
+     ]
+    ]
+   },
+   {
+    "title": "Denuncias",
+    "blocks": [
+     [
+      "p",
+      "Dentro de un grupo se puede denunciar a cualquier miembro desde la pantalla del grupo; no hace falta escribir nada. Las denuncias las revisa una persona."
+     ],
+     [
+      "p",
+      "También puedes escribir a [safety@oathlight.app](mailto:safety@oathlight.app) en cualquier momento, con cuenta o sin ella."
+     ]
+    ]
+   },
+   {
+    "title": "Qué hacemos con una denuncia",
+    "blocks": [
+     [
+      "p",
+      "La revisamos, expulsamos al miembro de los grupos o de Oathlight cuando procede y conservamos la denuncia para la revisión de seguridad aunque después se elimine una cuenta."
+     ],
+     [
+      "p",
+      "Cuando tenemos conocimiento de material de abuso sexual infantil o de un menor en peligro, lo comunicamos a las autoridades competentes —el National Center for Missing & Exploited Children (NCMEC) y el cuerpo policial nacional que corresponda— y cumplimos las leyes aplicables de protección de la infancia."
+     ]
+    ]
+   },
+   {
+    "title": "Persona de contacto",
+    "blocks": [
+     [
+      "p",
+      "Para asuntos de seguridad infantil, incluidas las consultas de Google Play y de las autoridades: Oleh Okhrimenko · [safety@oathlight.app](mailto:safety@oathlight.app)."
+     ]
+    ]
+   }
+  ]
+ }
+}

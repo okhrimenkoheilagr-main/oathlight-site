@@ -17,14 +17,13 @@ import shutil
 ROOT = pathlib.Path(__file__).parent
 SRC = ROOT / 'src'
 DOMAIN = 'https://oathlight.app'
-# German, French, Spanish and Italian join this list as their content files land in src/content/.
-LANGS = ['en', 'uk']
+LANGS = ['en', 'uk', 'de', 'fr', 'es', 'it']
 LANG_NAMES = {'en': 'English', 'uk': 'Українська', 'de': 'Deutsch', 'fr': 'Français', 'es': 'Español', 'it': 'Italiano'}
 PAGES = ['index', 'privacy', 'terms', 'delete', 'safety']
 RELEASED = False
 PLAY_URL = '#'
-UPDATED = {'en': '14 November 2026', 'uk': '14 листопада 2026', 'de': '14. November 2026',
-           'fr': '14 novembre 2026', 'es': '14 de noviembre de 2026', 'it': '14 novembre 2026'}
+UPDATED = {'en': '15 November 2026', 'uk': '15 листопада 2026', 'de': '15. November 2026',
+           'fr': '15 novembre 2026', 'es': '15 de noviembre de 2026', 'it': '15 novembre 2026'}
 
 e = html.escape
 
