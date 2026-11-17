@@ -20,7 +20,7 @@ Six languages: English at the root, `/uk/`, `/de/`, `/fr/`, `/es/`, `/it/`. Each
 
 - All text is in `src/content/<lang>.json`; the six files have identical structure. `build.py` (no dependencies) writes every page. Edit `src/`, run `python build.py`, commit everything.
 - Design is the Claude Design prototype, unchanged: Ember palette, Cinzel headings, one decorative element (the diamond).
-- **No third parties.** Fonts are served from `/fonts/` (Cinzel; Cormorant SC for Cyrillic). No analytics, no cookies, no CDN. Keep it that way: the landing page promises it and the privacy policy states it.
+- **No third parties.** Fonts are served from `/fonts/` (Cinzel; Spectral SC for Cyrillic). No analytics, no cookies, no CDN. Keep it that way: the landing page promises it and the privacy policy states it.
 - Both forms call insert-only functions in the app's Supabase project with the publishable key (`join_waitlist`, `request_account_deletion`). A form that fails says so and points to email — it never claims success.
 
 ## Rules for copy

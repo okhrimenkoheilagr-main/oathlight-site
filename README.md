@@ -22,5 +22,5 @@ claims a request was received.
 
 ## Fonts
 
-Cinzel and Cormorant SC (SIL Open Font License 1.1) are served from `fonts/`, so the
+Cinzel and Spectral SC (SIL Open Font License 1.1) are served from `fonts/`, so the
 pages make no third-party requests.
