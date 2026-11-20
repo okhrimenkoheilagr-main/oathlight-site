@@ -66,6 +66,11 @@
     "Nach einem Tag oder nach einem Monat steht deine Figur genau dort, wo du sie gelassen hast. Fortschritt wartet."
    ]
   ],
+  "formsTitle": "Ein Held, fünf Gestalten",
+  "formsNote": "Der Stratege, von der ersten bis zur vierzigsten Stufe. Alle zehn Stufen wechselt der Held seine Gestalt.",
+  "formWord": "Gestalt",
+  "levelWord": "Stufe",
+  "formsClass": "Stratege",
   "shotsTitle": "In der App",
   "shotsNote": "Figurenbilder in Arbeit – das sind Platzhalter",
   "shots": [

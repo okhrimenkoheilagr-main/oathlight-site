@@ -122,6 +122,14 @@ def page_index(c, lang):
     numerals = ['I', 'II', 'III', 'IV']
     steps = ''.join(f'<div class="step"><span class="step__num">{numerals[i]}</span><h3>{e(t)}</h3><p>{e(p)}</p></div>' for i, (t, p) in enumerate(h['steps']))
     shots = ''.join(f'<figure class="shot"><div class="shot__frame">{e(a)}<br>{e(b)}</div><figcaption>{e(cap)}</figcaption></figure>' for a, b, cap in h['shots'])
+    # The road, shown with a real hero: the Strategist's five forms, one per ten levels.
+    roman = ['I', 'II', 'III', 'IV', 'V']
+    form_levels = [1, 10, 20, 30, 40]
+    forms = ''.join(
+        f'<figure class="form-card"><img src="/img/strategist-f{i + 1}.webp" width="464" height="576" loading="lazy" '
+        f'alt="{e(h["formsClass"])} · {e(h["formWord"])} {roman[i]}">'
+        f'<figcaption><span class="form-card__num">{roman[i]}</span> {e(h["levelWord"])} {form_levels[i]}</figcaption></figure>'
+        for i in range(5))
     return head(c, lang, 'index', h['title'], h['description']) + f'''<body data-released="{'true' if RELEASED else 'false'}" data-glow="true">
 <div class="page">
   <div class="glow" aria-hidden="true"></div>
@@ -157,6 +165,13 @@ def page_index(c, lang):
     <section id="how" class="section">
       <h2 class="section__title">{e(h['howTitle'])}</h2>
       <div class="steps">{steps}</div>
+    </section>
+    <section id="forms" class="section">
+      <div class="shots-head">
+        <h2 class="section__title">{e(h['formsTitle'])}</h2>
+        <p>{e(h['formsNote'])}</p>
+      </div>
+      <div class="forms">{forms}</div>
     </section>
     <section class="section">
       <div class="shots-head">
@@ -310,6 +325,7 @@ def build():
             (out / f'{page}.html').write_text(text, encoding='utf-8')
     for name in ('styles.css', 'forms.js', 'favicon.svg'):
         shutil.copy(SRC / name, ROOT / name)
+    shutil.copytree(SRC / 'img', ROOT / 'img', dirs_exist_ok=True)
     (ROOT / 'CNAME').write_text('oathlight.app\n')
     (ROOT / '.nojekyll').write_text('')
     urls = ''.join(f'<url><loc>{DOMAIN}{url(l, p)}</loc></url>\n' for l in LANGS for p in PAGES)

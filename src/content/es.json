@@ -66,6 +66,11 @@
     "Tras un día o tras un mes, tu personaje está justo donde lo dejaste. El progreso espera."
    ]
   ],
+  "formsTitle": "Un héroe, cinco formas",
+  "formsNote": "El Estratega, del primer nivel al cuadragésimo. Cada diez niveles, el héroe cambia de forma.",
+  "formWord": "Forma",
+  "levelWord": "nivel",
+  "formsClass": "Estratega",
   "shotsTitle": "Dentro de la app",
   "shotsNote": "Ilustraciones de personajes en curso: estas son provisionales",
   "shots": [

@@ -66,6 +66,11 @@
     "After a day or after a month, your character is exactly where you left it. Progress waits."
    ]
   ],
+  "formsTitle": "One hero, five forms",
+  "formsNote": "The Strategist, from the first level to the fortieth. Every ten levels the hero changes shape.",
+  "formWord": "Form",
+  "levelWord": "level",
+  "formsClass": "Strategist",
   "shotsTitle": "Inside the app",
   "shotsNote": "Character art in progress — these are placeholders",
   "shots": [
