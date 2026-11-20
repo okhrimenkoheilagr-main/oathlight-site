@@ -167,6 +167,7 @@
       "ul",
       [
        "Ton adresse e-mail et un mot de passe. Le mot de passe n’est stocké que sous forme de hachage salé ; personne ne peut le lire.",
+       "Si tu choisis de te connecter avec Google : l’adresse e-mail, le nom et le lien de la photo de profil de ton compte Google, ainsi que l’identifiant que Google lui attribue. L’adresse devient ta connexion, le nom t’est proposé comme nom de compte, la photo n’est pas utilisée. Nous ne voyons jamais ton mot de passe Google.",
        "Un nom de compte et la ville que tu choisis pour ton fuseau horaire. Nous ne demandons ni ne lisons jamais la localisation de ton appareil.",
        "Le nom et la classe de ton héros.",
        "Tes tâches : titres, notes, la raison que tu as écrite pour une tâche, étiquettes, dates, heures et ancres.",
@@ -230,6 +231,7 @@
       "ul",
       [
        "Supabase — héberge la base de données et la connexion.",
+       "Google Sign-In — confirme ton identité si tu choisis de te connecter avec Google.",
        "Google (Firebase Cloud Messaging) et Expo — acheminent les notifications push vers ton appareil, si tu les autorises.",
        "Google Play — distribue l’appli et, si une offre payante voit le jour, gère le paiement. Nous ne voyons jamais les données de carte."
       ]
@@ -261,6 +263,10 @@
       "Les données sont hébergées sur les serveurs de Supabase et transmises par des connexions chiffrées. Tu peux supprimer ton compte dans l’appli ou via la [page de suppression de compte](/delete.html)."
      ],
      [
+      "p",
+      "Pour que l’application fonctionne sans réseau, une copie de tes tâches et des modifications pas encore envoyées est conservée sur ton téléphone. Elle est supprimée quand tu te déconnectes ou que tu supprimes l’application."
+     ],
+     [
       "table",
       [
        "Données",
@@ -270,6 +276,10 @@
        [
         "Compte, héros, tâches, réglages",
         "jusqu’à la suppression du compte, puis 30 jours pendant lesquels tu peux revenir en arrière"
+       ],
+       [
+        "Copie de tes tâches sur ton téléphone",
+        "jusqu’à ce que tu te déconnectes ou supprimes l’application"
        ],
        [
         "Sauvegardes",

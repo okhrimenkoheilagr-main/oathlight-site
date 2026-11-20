@@ -167,6 +167,7 @@
       "ul",
       [
        "Deine E-Mail-Adresse und ein Passwort. Das Passwort wird nur als gesalzener Hash gespeichert; niemand kann es lesen.",
+       "Wenn du dich mit Google anmeldest: E-Mail-Adresse, Name und Link zum Profilbild deines Google-Kontos sowie die Kennung, die Google ihm gibt. Die E-Mail-Adresse wird deine Anmeldung, der Name wird als Kontoname vorgeschlagen, das Bild wird nicht verwendet. Dein Google-Passwort sehen wir nie.",
        "Einen Kontonamen und die Stadt, die du für deine Zeitzone wählst. Wir fragen nie nach dem Standort deines Geräts und lesen ihn nie aus.",
        "Namen und Klasse deines Helden.",
        "Deine Aufgaben: Titel, Notizen, den Grund, den du zu einer Aufgabe geschrieben hast, Tags, Daten, Uhrzeiten und Anker.",
@@ -230,6 +231,7 @@
       "ul",
       [
        "Supabase – hostet die Datenbank und die Anmeldung.",
+       "Google Sign-In – bestätigt, wer du bist, wenn du dich mit Google anmeldest.",
        "Google (Firebase Cloud Messaging) und Expo – stellen Push-Mitteilungen auf dein Gerät zu, wenn du sie erlaubst.",
        "Google Play – vertreibt die App und wickelt, falls es je einen kostenpflichtigen Tarif gibt, die Zahlung ab. Kartendaten sehen wir nie."
       ]
@@ -261,6 +263,10 @@
       "Die Daten liegen auf Servern von Supabase und werden verschlüsselt übertragen. Du kannst dein Konto in der App oder über die [Seite zur Kontolöschung](/delete.html) löschen."
      ],
      [
+      "p",
+      "Damit die App ohne Netz funktioniert, liegt eine Kopie deiner Aufgaben und noch nicht gesendeter Änderungen auf deinem Telefon. Sie wird gelöscht, wenn du dich abmeldest oder die App entfernst."
+     ],
+     [
       "table",
       [
        "Daten",
@@ -270,6 +276,10 @@
        [
         "Konto, Helden, Aufgaben, Einstellungen",
         "bis du das Konto löschst, danach 30 Tage, in denen du es rückgängig machen kannst"
+       ],
+       [
+        "Kopie deiner Aufgaben auf dem Telefon",
+        "bis du dich abmeldest oder die App entfernst"
        ],
        [
         "Backups",

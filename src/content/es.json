@@ -167,6 +167,7 @@
       "ul",
       [
        "Tu dirección de correo y una contraseña. La contraseña solo se guarda como un hash con sal; nadie puede leerla.",
+       "Si eliges iniciar sesión con Google: la dirección de correo, el nombre y el enlace a la foto de perfil de tu cuenta de Google, y el identificador que Google le asigna. El correo pasa a ser tu acceso, el nombre se propone como nombre de cuenta y la foto no se usa. Nunca vemos tu contraseña de Google.",
        "Un nombre de cuenta y la ciudad que eliges para tu zona horaria. Nunca pedimos ni leemos la ubicación de tu dispositivo.",
        "El nombre y la clase de tu héroe.",
        "Tus tareas: títulos, notas, el motivo que escribiste para una tarea, etiquetas, fechas, horas y anclas.",
@@ -230,6 +231,7 @@
       "ul",
       [
        "Supabase: aloja la base de datos y el inicio de sesión.",
+       "Google Sign-In: confirma quién eres si eliges iniciar sesión con Google.",
        "Google (Firebase Cloud Messaging) y Expo: entregan las notificaciones push a tu dispositivo, si las permites.",
        "Google Play: distribuye la app y, si algún día hay un plan de pago, gestiona el cobro. Nunca vemos los datos de la tarjeta."
       ]
@@ -261,6 +263,10 @@
       "Los datos se alojan en los servidores de Supabase y se envían por conexiones cifradas. Puedes eliminar tu cuenta en la app o mediante la [página de eliminación de cuenta](/delete.html)."
      ],
      [
+      "p",
+      "Para que la app funcione sin red, en tu teléfono se guarda una copia de tus tareas y de los cambios aún no enviados. Se borra cuando cierras sesión o eliminas la app."
+     ],
+     [
       "table",
       [
        "Datos",
@@ -270,6 +276,10 @@
        [
         "Cuenta, héroes, tareas, ajustes",
         "hasta que elimines la cuenta, y después 30 días en los que puedes deshacerlo"
+       ],
+       [
+        "Copia de tus tareas en el teléfono",
+        "hasta que cierres sesión o elimines la app"
        ],
        [
         "Copias de seguridad",

@@ -167,6 +167,7 @@
       "ul",
       [
        "Your email address and a password. The password is stored only as a salted hash; nobody can read it.",
+       "If you choose Sign in with Google: the email address, name and profile picture link of your Google account, and the identifier Google gives it. The email becomes your sign-in, the name is offered as your account name, the picture is not used. We never see your Google password.",
        "An account name and the city you choose for your time zone. We never ask for or read your device location.",
        "Your hero's name and class.",
        "Your tasks: titles, notes, the reason you wrote for a task, tags, dates, times and anchors.",
@@ -230,6 +231,7 @@
       "ul",
       [
        "Supabase — hosts the database and sign-in.",
+       "Google Sign-In — confirms who you are, if you choose to sign in with Google.",
        "Google (Firebase Cloud Messaging) and Expo — deliver push notifications to your device, if you allow them.",
        "Google Play — distributes the app and, if a paid plan is ever offered, handles payment. We never see card details."
       ]
@@ -261,6 +263,10 @@
       "Data is held on Supabase's servers and sent over encrypted connections. You can delete your account in the app or through the [account deletion page](/delete.html)."
      ],
      [
+      "p",
+      "So that the app works without a network, a copy of your tasks and of any changes not yet sent is kept on your phone. It is removed when you sign out or remove the app."
+     ],
+     [
       "table",
       [
        "Data",
@@ -270,6 +276,10 @@
        [
         "Account, heroes, tasks, settings",
         "until you delete the account, then 30 days in which you can undo it"
+       ],
+       [
+        "Copy of your tasks on your phone",
+        "until you sign out or remove the app"
        ],
        [
         "Backups",

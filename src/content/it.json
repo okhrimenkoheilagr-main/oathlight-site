@@ -167,6 +167,7 @@
       "ul",
       [
        "Il tuo indirizzo email e una password. La password è conservata solo come hash con sale; nessuno può leggerla.",
+       "Se scegli di accedere con Google: l’indirizzo email, il nome e il link alla foto del profilo del tuo account Google, e l’identificativo che Google gli assegna. L’indirizzo diventa il tuo accesso, il nome viene proposto come nome dell’account, la foto non viene usata. La tua password di Google non la vediamo mai.",
        "Un nome dell’account e la città che scegli per il fuso orario. Non chiediamo né leggiamo mai la posizione del dispositivo.",
        "Il nome e la classe del tuo eroe.",
        "I tuoi compiti: titoli, note, il motivo che hai scritto per un compito, etichette, date, orari e ancore.",
@@ -230,6 +231,7 @@
       "ul",
       [
        "Supabase: ospita il database e l’accesso.",
+       "Google Sign-In: conferma chi sei, se scegli di accedere con Google.",
        "Google (Firebase Cloud Messaging) ed Expo: recapitano le notifiche push sul tuo dispositivo, se le consenti.",
        "Google Play: distribuisce l’app e, se mai ci sarà un piano a pagamento, gestisce il pagamento. Non vediamo mai i dati della carta."
       ]
@@ -261,6 +263,10 @@
       "I dati sono conservati sui server di Supabase e trasmessi tramite connessioni cifrate. Puoi eliminare l’account nell’app o dalla [pagina di eliminazione dell’account](/delete.html)."
      ],
      [
+      "p",
+      "Perché l’app funzioni senza rete, sul tuo telefono resta una copia dei tuoi compiti e delle modifiche non ancora inviate. Viene eliminata quando esci dall’account o rimuovi l’app."
+     ],
+     [
       "table",
       [
        "Dati",
@@ -270,6 +276,10 @@
        [
         "Account, eroi, compiti, impostazioni",
         "finché non elimini l’account, poi per 30 giorni in cui puoi annullare"
+       ],
+       [
+        "Copia dei tuoi compiti sul telefono",
+        "finché non esci dall’account o rimuovi l’app"
        ],
        [
         "Backup",

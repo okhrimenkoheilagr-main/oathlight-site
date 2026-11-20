@@ -24,6 +24,9 @@ RELEASED = False
 PLAY_URL = '#'
 UPDATED = {'en': '15 November 2026', 'uk': '15 листопада 2026', 'de': '15. November 2026',
            'fr': '15 novembre 2026', 'es': '15 de noviembre de 2026', 'it': '15 novembre 2026'}
+# The privacy policy changes on its own schedule: Google sign-in and the copy of tasks on the phone.
+PRIVACY_UPDATED = {'en': '20 November 2026', 'uk': '20 листопада 2026', 'de': '20. November 2026',
+                   'fr': '20 novembre 2026', 'es': '20 de noviembre de 2026', 'it': '20 novembre 2026'}
 
 e = html.escape
 
@@ -215,7 +218,7 @@ def page_legal(c, lang, page):
     <div class="legal">
       <p class="kicker">{e(d['kicker'])}</p>
       <h1 class="page-title">{e(d['title'])}</h1>
-      <p class="updated">{e(c['nav']['updated'])} {UPDATED[lang]}</p>
+      <p class="updated">{e(c['nav']['updated'])} {(PRIVACY_UPDATED if page == 'privacy' else UPDATED)[lang]}</p>
       <p class="page-lead">{rich(d['lead'])}</p>
       <div class="legal-grid">
         <nav class="toc" aria-label="{e(c['nav']['contents'])}">
