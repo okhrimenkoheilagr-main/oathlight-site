@@ -59,7 +59,7 @@
    ],
    [
     "Setz dich ans Feuer – oder nicht",
-    "Eine anonyme Dreiergruppe für achtundvierzig Stunden, nur Zeichen, nur Erwachsene. Wenn sie endet, ist sie fort, und niemand wartet auf dich."
+    "Eine Dreiergruppe für achtundvierzig Stunden, in der man sich nur unter den Namen der Helden kennt: nur Zeichen, nur Erwachsene. Wenn sie endet, ist sie fort, und niemand wartet auf dich."
    ],
    [
     "Komm zurück, wann du willst",
@@ -244,7 +244,7 @@
     ]
    },
    {
-    "title": "Anonyme Gruppen",
+    "title": "Was deine Gruppe sieht",
     "blocks": [
      [
       "p",
@@ -252,7 +252,7 @@
      ],
      [
       "p",
-      "Andere Mitglieder sehen eine Bezeichnung wie „Wanderer“, Klasse, Form und Stufe deines Helden und die Zeichen, die du sendest. Sie sehen weder deine E-Mail noch deinen Kontonamen, den Namen deines Helden, deine Aufgaben oder deine Historie. Es gibt keinen Text, keine Bilder und nichts zu tippen."
+      "Andere Mitglieder sehen Namen, Klasse und Stufe deines Helden, wie viele Aufgaben du erledigt und wie viel XP du verdient hast, solange das Feuer brennt, und die Zeichen, die du sendest. Sie sehen weder deine E-Mail noch deinen Kontonamen, deine Aufgaben selbst oder deine Historie. Es gibt keinen Text, keine Bilder und nichts zu tippen – lass also deinen echten Namen und deine E-Mail aus dem Namen deines Helden heraus."
      ],
      [
       "p",
@@ -393,7 +393,7 @@
     "blocks": [
      [
       "p",
-      "Gruppen sind anonym, dauern achtundvierzig Stunden und erlauben nur die eingebauten Zeichen. Du kannst jederzeit gehen. Ein Mitglied lässt sich aus der Gruppe heraus melden; Meldungen prüft ein Mensch, und sie können zum Ausschluss aus Gruppen oder aus Oathlight führen. Wir können Gruppen für alle ohne Ankündigung ganz abschalten, wenn die Sicherheit es verlangt."
+      "In einer Gruppe kennen sich die Mitglieder nur unter den Namen ihrer Helden. Gruppen dauern achtundvierzig Stunden und erlauben nur die eingebauten Zeichen; der Name eines Helden darf nicht beleidigend sein. Du kannst jederzeit gehen. Ein Mitglied lässt sich aus der Gruppe heraus melden, auch wegen eines beleidigenden Namens; Meldungen prüft ein Mensch, und sie können zum Ausschluss aus Gruppen oder aus Oathlight führen. Wir können Gruppen für alle ohne Ankündigung ganz abschalten, wenn die Sicherheit es verlangt."
      ]
     ]
    },
@@ -470,7 +470,7 @@
       [
        "Gruppen – der einzige Ort, an dem Mitglieder aufeinandertreffen – sind für alle unter 18 gesperrt, über das Alterssignal von Google Play oder eine neutrale Altersprüfung.",
        "Es gibt keinen Text, keine Bilder, keine Sprache, keine Links und keine Profile. Mitglieder können nur dreizehn eingebaute Zeichen austauschen.",
-       "Mitglieder sind füreinander anonym und können einander außerhalb einer Gruppe weder finden noch folgen noch kontaktieren.",
+       "Mitglieder kennen sich nur unter den Namen ihrer Helden und können einander außerhalb einer Gruppe weder finden noch folgen noch kontaktieren.",
        "Eine Gruppe löst sich nach achtundvierzig Stunden auf und kann nicht verlängert werden.",
        "Gruppen lassen sich für alle auf einmal abschalten, falls das je nötig wird."
       ]

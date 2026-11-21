@@ -59,7 +59,7 @@
    ],
    [
     "Siéntate junto a una hoguera, o no",
-    "Un grupo anónimo de tres durante cuarenta y ocho horas, solo marcas, solo adultos. Cuando termina desaparece, y nadie te espera."
+    "Un grupo de tres durante cuarenta y ocho horas, donde solo os conocéis por el nombre de vuestros héroes: solo marcas, solo adultos. Cuando termina desaparece, y nadie te espera."
    ],
    [
     "Vuelve cuando quieras",
@@ -244,7 +244,7 @@
     ]
    },
    {
-    "title": "Grupos anónimos",
+    "title": "Lo que ve tu grupo",
     "blocks": [
      [
       "p",
@@ -252,7 +252,7 @@
      ],
      [
       "p",
-      "Los demás miembros ven una denominación como «Caminante», la clase, la forma y el nivel de tu héroe y las marcas que envías. No pueden ver tu correo, tu nombre de cuenta, el nombre de tu héroe, tus tareas ni tu historial. No hay texto, ni imágenes, ni nada que escribir."
+      "Los demás miembros ven el nombre, la clase y el nivel de tu héroe, cuántas tareas has hecho y la XP ganada mientras arde la hoguera, y las marcas que envías. No pueden ver tu correo, tu nombre de cuenta, tus tareas en sí ni tu historial. No hay texto, ni imágenes, ni nada que escribir, así que no pongas tu nombre real ni tu correo en el nombre de tu héroe."
      ],
      [
       "p",
@@ -393,7 +393,7 @@
     "blocks": [
      [
       "p",
-      "Los grupos son anónimos, duran cuarenta y ocho horas y solo permiten las marcas integradas. Puedes salir cuando quieras. Se puede denunciar a un miembro desde el propio grupo; las denuncias las revisa una persona y pueden suponer la expulsión de los grupos o de Oathlight. Podemos desactivar los grupos por completo, para todos y sin aviso, si la seguridad lo exige."
+      "En un grupo, los miembros solo se conocen por el nombre de sus héroes. Los grupos duran cuarenta y ocho horas y solo permiten las marcas integradas; el nombre de un héroe no puede ser ofensivo. Puedes salir cuando quieras. Se puede denunciar a un miembro desde el propio grupo, también por un nombre ofensivo; las denuncias las revisa una persona y pueden suponer la expulsión de los grupos o de Oathlight. Podemos desactivar los grupos por completo, para todos y sin aviso, si la seguridad lo exige."
      ]
     ]
    },
@@ -470,7 +470,7 @@
       [
        "Los grupos —el único lugar donde los miembros coinciden— están cerrados a cualquier persona menor de 18, mediante la señal de edad de Google Play o una comprobación de edad neutral.",
        "No hay texto, ni imágenes, ni voz, ni enlaces, ni perfiles. Los miembros solo pueden intercambiar trece marcas integradas.",
-       "Los miembros son anónimos entre sí y no pueden encontrarse, seguirse ni contactarse fuera de un grupo.",
+       "Los miembros solo se conocen por el nombre de sus héroes y no pueden encontrarse, seguirse ni contactarse fuera de un grupo.",
        "Un grupo se disuelve a las cuarenta y ocho horas y no se puede prolongar.",
        "Los grupos pueden desactivarse para todos a la vez si alguna vez hace falta."
       ]

@@ -59,7 +59,7 @@
    ],
    [
     "Sit by a fire, or don't",
-    "An anonymous party of three for forty-eight hours, marks only, adults only. When it ends it is gone, and nobody is waiting on you."
+    "A party of three for forty-eight hours, known only by your heroes’ names: marks only, adults only. When it ends it is gone, and nobody is waiting on you."
    ],
    [
     "Come back whenever",
@@ -244,7 +244,7 @@
     ]
    },
    {
-    "title": "Anonymous parties",
+    "title": "What your party sees",
     "blocks": [
      [
       "p",
@@ -252,7 +252,7 @@
      ],
      [
       "p",
-      "Other members see a label such as “Wanderer”, your hero's class, form and level, and the marks you send. They cannot see your email, your account name, your hero's name, your tasks or your history. There is no text, no images and nothing to type."
+      "Other members see your hero’s name, class and level, how many tasks you have done and the XP earned while the fire burns, and the marks you send. They cannot see your email, your account name, your tasks themselves or your history. There is no text, no images and nothing to type — so keep your real name and email out of your hero’s name."
      ],
      [
       "p",
@@ -393,7 +393,7 @@
     "blocks": [
      [
       "p",
-      "Parties are anonymous, last forty-eight hours and allow only the built-in marks. You may leave at any time. You can report a member from inside the party; reports are reviewed by a person and may lead to removal from parties or from Oathlight. We may switch parties off entirely, for everyone, without notice, if safety requires it."
+      "In a party, members know each other only by their heroes’ names. Parties last forty-eight hours and allow only the built-in marks; a hero’s name must not be offensive. You may leave at any time. You can report a member from inside the party, including for an offensive name; reports are reviewed by a person and may lead to removal from parties or from Oathlight. We may switch parties off entirely, for everyone, without notice, if safety requires it."
      ]
     ]
    },
@@ -470,7 +470,7 @@
       [
        "Parties — the only place members meet — are closed to anyone under 18, using Google Play's age signal or a neutral age check.",
        "There is no text, no images, no voice, no links and no profiles. Members can exchange only thirteen built-in marks.",
-       "Members are anonymous to each other and cannot find, follow or contact one another outside a party.",
+       "Members know each other only by their heroes’ names and cannot find, follow or contact one another outside a party.",
        "A party dissolves after forty-eight hours and cannot be extended.",
        "Parties can be switched off for everyone at once if we ever need to."
       ]

@@ -59,7 +59,7 @@
    ],
    [
     "Siediti accanto a un falò, oppure no",
-    "Un gruppo anonimo di tre per quarantotto ore, solo segni, solo adulti. Quando finisce non c’è più, e nessuno ti aspetta."
+    "Un gruppo di tre per quarantotto ore, in cui ci si conosce solo con il nome del proprio eroe: solo segni, solo adulti. Quando finisce non c’è più, e nessuno ti aspetta."
    ],
    [
     "Torna quando vuoi",
@@ -244,7 +244,7 @@
     ]
    },
    {
-    "title": "Gruppi anonimi",
+    "title": "Cosa vede il tuo gruppo",
     "blocks": [
      [
       "p",
@@ -252,7 +252,7 @@
      ],
      [
       "p",
-      "Gli altri membri vedono una dicitura come «Viandante», la classe, la forma e il livello del tuo eroe e i segni che invii. Non possono vedere la tua email, il nome dell’account, il nome del tuo eroe, i tuoi compiti o la tua cronologia. Non c’è testo, non ci sono immagini e non c’è nulla da scrivere."
+      "Gli altri membri vedono nome, classe e livello del tuo eroe, quanti compiti hai fatto e gli XP guadagnati mentre il falò arde, e i segni che invii. Non possono vedere la tua email, il nome dell’account, i compiti in sé o la tua cronologia. Non c’è testo, non ci sono immagini e non c’è nulla da scrivere: quindi non mettere il tuo vero nome né la tua email nel nome del tuo eroe."
      ],
      [
       "p",
@@ -393,7 +393,7 @@
     "blocks": [
      [
       "p",
-      "I gruppi sono anonimi, durano quarantotto ore e consentono solo i segni integrati. Puoi uscire in qualsiasi momento. Un membro può essere segnalato dall’interno del gruppo; le segnalazioni sono esaminate da una persona e possono portare all’esclusione dai gruppi o da Oathlight. Possiamo disattivare del tutto i gruppi, per tutti e senza preavviso, se la sicurezza lo richiede."
+      "In un gruppo, i membri si conoscono solo con il nome dei loro eroi. I gruppi durano quarantotto ore e consentono solo i segni integrati; il nome di un eroe non deve essere offensivo. Puoi uscire in qualsiasi momento. Un membro può essere segnalato dall’interno del gruppo, anche per un nome offensivo; le segnalazioni sono esaminate da una persona e possono portare all’esclusione dai gruppi o da Oathlight. Possiamo disattivare del tutto i gruppi, per tutti e senza preavviso, se la sicurezza lo richiede."
      ]
     ]
    },
@@ -470,7 +470,7 @@
       [
        "I gruppi — l’unico luogo in cui i membri si incontrano — sono chiusi a chiunque abbia meno di 18 anni, tramite il segnale di età di Google Play o una verifica dell’età neutra.",
        "Non ci sono testo, immagini, voce, link né profili. I membri possono scambiarsi solo tredici segni integrati.",
-       "I membri sono anonimi l’uno per l’altro e non possono trovarsi, seguirsi o contattarsi fuori da un gruppo.",
+       "I membri si conoscono solo con il nome dei loro eroi e non possono trovarsi, seguirsi o contattarsi fuori da un gruppo.",
        "Un gruppo si scioglie dopo quarantotto ore e non può essere prolungato.",
        "I gruppi possono essere disattivati per tutti in una volta, se mai servisse."
       ]

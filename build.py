@@ -22,11 +22,13 @@ LANG_NAMES = {'en': 'English', 'uk': 'Українська', 'de': 'Deutsch', 'f
 PAGES = ['index', 'privacy', 'terms', 'delete', 'safety']
 RELEASED = False
 PLAY_URL = '#'
-UPDATED = {'en': '15 November 2026', 'uk': '15 листопада 2026', 'de': '15. November 2026',
-           'fr': '15 novembre 2026', 'es': '15 de noviembre de 2026', 'it': '15 novembre 2026'}
-# The privacy policy changes on its own schedule: Google sign-in and the copy of tasks on the phone.
-PRIVACY_UPDATED = {'en': '20 November 2026', 'uk': '20 листопада 2026', 'de': '20. November 2026',
-                   'fr': '20 novembre 2026', 'es': '20 de noviembre de 2026', 'it': '20 novembre 2026'}
+# Terms and safety: party members are known by their heroes' names (22 November).
+UPDATED = {'en': '22 November 2026', 'uk': '22 листопада 2026', 'de': '22. November 2026',
+           'fr': '22 novembre 2026', 'es': '22 de noviembre de 2026', 'it': '22 novembre 2026'}
+# The privacy policy changes on its own schedule: Google sign-in and the copy of tasks on the phone
+# (20 November); what a party sees — heroes' names (22 November).
+PRIVACY_UPDATED = {'en': '22 November 2026', 'uk': '22 листопада 2026', 'de': '22. November 2026',
+                   'fr': '22 novembre 2026', 'es': '22 de noviembre de 2026', 'it': '22 novembre 2026'}
 
 e = html.escape
 

@@ -59,7 +59,7 @@
    ],
    [
     "Assieds-toi près d’un feu, ou pas",
-    "Un groupe anonyme de trois pendant quarante-huit heures, des marques seulement, réservé aux adultes. Quand il se termine, il disparaît, et personne ne t’attend."
+    "Un groupe de trois pendant quarante-huit heures, où l’on ne se connaît que par le nom de son héros : des marques seulement, réservé aux adultes. Quand il se termine, il disparaît, et personne ne t’attend."
    ],
    [
     "Reviens quand tu veux",
@@ -244,7 +244,7 @@
     ]
    },
    {
-    "title": "Groupes anonymes",
+    "title": "Ce que voit ton groupe",
     "blocks": [
      [
       "p",
@@ -252,7 +252,7 @@
      ],
      [
       "p",
-      "Les autres membres voient une désignation telle que « Voyageur », la classe, la forme et le niveau de ton héros, et les marques que tu envoies. Ils ne voient ni ton e-mail, ni ton nom de compte, ni le nom de ton héros, ni tes tâches, ni ton historique. Il n’y a ni texte, ni image, ni rien à écrire."
+      "Les autres membres voient le nom, la classe et le niveau de ton héros, le nombre de tâches faites et l’XP gagnée tant que le feu brûle, et les marques que tu envoies. Ils ne voient ni ton e-mail, ni ton nom de compte, ni tes tâches elles-mêmes, ni ton historique. Il n’y a ni texte, ni image, ni rien à écrire — garde donc ton vrai nom et ton e-mail hors du nom de ton héros."
      ],
      [
       "p",
@@ -393,7 +393,7 @@
     "blocks": [
      [
       "p",
-      "Les groupes sont anonymes, durent quarante-huit heures et n’autorisent que les marques intégrées. Tu peux partir à tout moment. Un membre peut être signalé depuis le groupe ; les signalements sont examinés par une personne et peuvent entraîner l’exclusion des groupes ou d’Oathlight. Nous pouvons désactiver entièrement les groupes, pour tout le monde et sans préavis, si la sécurité l’exige."
+      "Dans un groupe, les membres ne se connaissent que par le nom de leur héros. Les groupes durent quarante-huit heures et n’autorisent que les marques intégrées ; le nom d’un héros ne doit pas être offensant. Tu peux partir à tout moment. Un membre peut être signalé depuis le groupe, y compris pour un nom offensant ; les signalements sont examinés par une personne et peuvent entraîner l’exclusion des groupes ou d’Oathlight. Nous pouvons désactiver entièrement les groupes, pour tout le monde et sans préavis, si la sécurité l’exige."
      ]
     ]
    },
@@ -470,7 +470,7 @@
       [
        "Les groupes — le seul endroit où les membres se croisent — sont fermés à toute personne de moins de 18 ans, grâce au signal d’âge de Google Play ou à une vérification d’âge neutre.",
        "Il n’y a ni texte, ni image, ni voix, ni lien, ni profil. Les membres ne peuvent échanger que treize marques intégrées.",
-       "Les membres sont anonymes les uns pour les autres et ne peuvent ni se retrouver, ni se suivre, ni se contacter en dehors d’un groupe.",
+       "Les membres ne se connaissent que par le nom de leur héros et ne peuvent ni se retrouver, ni se suivre, ni se contacter en dehors d’un groupe.",
        "Un groupe se dissout au bout de quarante-huit heures et ne peut pas être prolongé.",
        "Les groupes peuvent être désactivés pour tout le monde d’un seul coup si cela devient nécessaire."
       ]
