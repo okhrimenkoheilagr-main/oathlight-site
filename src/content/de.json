@@ -265,7 +265,7 @@
     "blocks": [
      [
       "p",
-      "Google Tasks zu verbinden ist freiwillig. Es wird unter Einstellungen → Verbindungen auf Android angeboten, und Oathlight bittet Google erst dann um reinen Lesezugriff auf deine Aufgaben (die Berechtigung tasks.readonly), wenn du auf Verbinden tippst."
+      "Google Tasks zu verbinden ist freiwillig. Es wird auf Android im Bereich „Konto“ auf dem Tab des Helden angeboten, und Oathlight bittet Google erst dann um reinen Lesezugriff auf deine Aufgaben (die Berechtigung tasks.readonly), wenn du auf Verbinden tippst."
      ],
      [
       "p",

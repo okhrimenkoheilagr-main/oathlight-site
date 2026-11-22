@@ -265,7 +265,7 @@
     "blocks": [
      [
       "p",
-      "Collegare Google Tasks è facoltativo. Si trova in Impostazioni → Collegamenti su Android, e Oathlight chiede a Google l’accesso in sola lettura ai tuoi compiti (il permesso tasks.readonly) solo quando tocchi Collega."
+      "Collegare Google Tasks è facoltativo. Si trova su Android nella sezione «Account» della scheda dell’eroe, e Oathlight chiede a Google l’accesso in sola lettura ai tuoi compiti (il permesso tasks.readonly) solo quando tocchi Collega."
      ],
      [
       "p",

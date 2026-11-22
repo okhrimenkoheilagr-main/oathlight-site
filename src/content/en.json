@@ -265,7 +265,7 @@
     "blocks": [
      [
       "p",
-      "Connecting Google Tasks is optional. It is offered in Settings → Connections on Android, and Oathlight asks Google for read-only access to your tasks (the tasks.readonly permission) only when you tap Connect."
+      "Connecting Google Tasks is optional. It is offered on Android in the Account section of the hero’s tab, and Oathlight asks Google for read-only access to your tasks (the tasks.readonly permission) only when you tap Connect."
      ],
      [
       "p",

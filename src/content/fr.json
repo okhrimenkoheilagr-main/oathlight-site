@@ -265,7 +265,7 @@
     "blocks": [
      [
       "p",
-      "Connecter Google Tasks est facultatif. C’est proposé dans Réglages → Connexions sur Android, et Oathlight ne demande à Google un accès en lecture seule à tes tâches (l’autorisation tasks.readonly) que lorsque tu touches Connecter."
+      "Connecter Google Tasks est facultatif. C’est proposé sur Android dans la section « Compte » de l’onglet du héros, et Oathlight ne demande à Google un accès en lecture seule à tes tâches (l’autorisation tasks.readonly) que lorsque tu touches Connecter."
      ],
      [
       "p",
