@@ -261,6 +261,31 @@
     ]
    },
    {
+    "title": "Google Tasks",
+    "blocks": [
+     [
+      "p",
+      "Collegare Google Tasks è facoltativo. Si trova in Impostazioni → Collegamenti su Android, e Oathlight chiede a Google l’accesso in sola lettura ai tuoi compiti (il permesso tasks.readonly) solo quando tocchi Collega."
+     ],
+     [
+      "p",
+      "Cosa leggiamo: i nomi delle tue liste e i compiti aperti — titolo, note, data di scadenza e a quale compito appartiene un sottocompito. Non chiediamo i compiti completati, nascosti o eliminati, e non cambiamo né cancelliamo mai nulla in Google."
+     ],
+     [
+      "p",
+      "Cosa conserviamo: solo i compiti che scegli di portare. Ognuno diventa un normale compito di Oathlight con titolo, note (i sottocompiti aperti diventano righe della nota), data e, se lasci attivo quell’interruttore, il nome della lista come etichetta. Da lì in poi viene conservato e cancellato come ogni altro tuo compito. Il telefono ricorda anche quali compiti di Google ha già portato, così un compito cancellato qui non ritorna."
+     ],
+     [
+      "p",
+      "La chiave di accesso che Google dà all’app resta sul telefono e viene inviata solo a Google; non raggiunge mai il nostro server. I tuoi compiti vengono letti solo mentre la schermata di importazione è aperta — niente funziona in background. *Scollega* in quella schermata revoca l’accesso presso Google; puoi anche rimuoverlo su [myaccount.google.com/permissions](https://myaccount.google.com/permissions)."
+     ],
+     [
+      "p",
+      "L’uso da parte di Oathlight delle informazioni ricevute dalle API di Google, e il loro trasferimento a qualsiasi altra app, rispettano le [Norme sui dati utente dei servizi API di Google](https://developers.google.com/terms/api-services-user-data-policy), inclusi i requisiti di uso limitato (Limited Use). I dati servono solo a mostrarti i tuoi compiti in Oathlight. Non sono usati per la pubblicità, non sono venduti, non sono trasferiti a nessuno, non sono letti da persone se non su tua richiesta o quando la legge lo impone, e non sono usati per addestrare modelli di IA."
+     ]
+    ]
+   },
+   {
     "title": "Conservazione ed eliminazione",
     "blocks": [
      [

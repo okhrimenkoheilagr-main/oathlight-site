@@ -261,6 +261,31 @@
     ]
    },
    {
+    "title": "Google Tasks",
+    "blocks": [
+     [
+      "p",
+      "Google Tasks zu verbinden ist freiwillig. Es wird unter Einstellungen → Verbindungen auf Android angeboten, und Oathlight bittet Google erst dann um reinen Lesezugriff auf deine Aufgaben (die Berechtigung tasks.readonly), wenn du auf Verbinden tippst."
+     ],
+     [
+      "p",
+      "Was wir lesen: die Namen deiner Aufgabenlisten und deine offenen Aufgaben — Titel, Notizen, Fälligkeitsdatum und zu welcher Aufgabe eine Unteraufgabe gehört. Erledigte, ausgeblendete oder gelöschte Aufgaben fragen wir nicht ab, und wir ändern oder löschen nie etwas in Google."
+     ],
+     [
+      "p",
+      "Was wir behalten: nur die Aufgaben, die du holst. Jede wird zu einer gewöhnlichen Oathlight-Aufgabe mit Titel, Notizen (offene Unteraufgaben werden zu Zeilen der Notiz), Fälligkeitsdatum und, wenn dieser Schalter an bleibt, dem Namen der Liste als Tag. Danach wird sie gespeichert und gelöscht wie jede deiner Aufgaben. Dein Handy merkt sich außerdem, welche Google-Aufgaben es schon geholt hat, damit eine hier gelöschte Aufgabe nicht zurückkommt."
+     ],
+     [
+      "p",
+      "Der Zugangsschlüssel, den Google der App gibt, bleibt auf deinem Handy und geht nur an Google; unseren Server erreicht er nie. Deine Aufgaben werden nur gelesen, solange der Import-Bildschirm offen ist — im Hintergrund läuft nichts. *Trennen* auf diesem Bildschirm entzieht den Zugriff bei Google; du kannst ihn auch unter [myaccount.google.com/permissions](https://myaccount.google.com/permissions) entfernen."
+     ],
+     [
+      "p",
+      "Die Nutzung und Weitergabe von Informationen, die Oathlight über Google-APIs erhält, an andere Apps erfolgt gemäß der [Nutzerdatenrichtlinie für Google API-Dienste](https://developers.google.com/terms/api-services-user-data-policy), einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use). Die Daten dienen nur dazu, dir deine eigenen Aufgaben in Oathlight zu zeigen. Sie werden nicht für Werbung genutzt, nicht verkauft, an niemanden weitergegeben, von Menschen nur auf deine Bitte oder wenn das Gesetz es verlangt gelesen und nicht zum Training von KI-Modellen verwendet."
+     ]
+    ]
+   },
+   {
     "title": "Speicherung und Löschung",
     "blocks": [
      [

@@ -261,6 +261,31 @@
     ]
    },
    {
+    "title": "Google Tasks",
+    "blocks": [
+     [
+      "p",
+      "Connecter Google Tasks est facultatif. C’est proposé dans Réglages → Connexions sur Android, et Oathlight ne demande à Google un accès en lecture seule à tes tâches (l’autorisation tasks.readonly) que lorsque tu touches Connecter."
+     ],
+     [
+      "p",
+      "Ce que nous lisons : les noms de tes listes et tes tâches ouvertes — titre, notes, date d’échéance, et la tâche à laquelle appartient une sous-tâche. Nous ne demandons ni les tâches terminées, ni les masquées, ni les supprimées, et nous ne modifions ni ne supprimons jamais rien dans Google."
+     ],
+     [
+      "p",
+      "Ce que nous gardons : seulement les tâches que tu choisis de ramener. Chacune devient une tâche Oathlight ordinaire, avec son titre, ses notes (les sous-tâches ouvertes deviennent des lignes de la note), sa date et, si tu laisses ce bouton activé, le nom de la liste comme étiquette. Ensuite, elle est conservée et supprimée comme toutes tes tâches. Ton téléphone retient aussi quelles tâches Google il a déjà ramenées, pour qu’une tâche supprimée ici ne revienne pas."
+     ],
+     [
+      "p",
+      "La clé d’accès que Google donne à l’app reste sur ton téléphone et n’est envoyée qu’à Google ; elle n’atteint jamais notre serveur. Tes tâches ne sont lues que pendant que l’écran d’import est ouvert — rien ne tourne en arrière-plan. *Déconnecter* sur cet écran retire l’accès chez Google ; tu peux aussi le retirer sur [myaccount.google.com/permissions](https://myaccount.google.com/permissions)."
+     ],
+     [
+      "p",
+      "L’utilisation par Oathlight des informations reçues des API Google, et leur transfert à toute autre application, respectent le [Règlement sur les données utilisateur des services d’API Google](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d’utilisation limitée (Limited Use). Ces données servent uniquement à te montrer tes propres tâches dans Oathlight. Elles ne servent pas à la publicité, ne sont pas vendues, ne sont transmises à personne, ne sont lues par des personnes que si tu le demandes ou si la loi l’exige, et ne servent pas à entraîner des modèles d’IA."
+     ]
+    ]
+   },
+   {
     "title": "Conservation et suppression",
     "blocks": [
      [

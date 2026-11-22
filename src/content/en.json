@@ -261,6 +261,31 @@
     ]
    },
    {
+    "title": "Google Tasks",
+    "blocks": [
+     [
+      "p",
+      "Connecting Google Tasks is optional. It is offered in Settings → Connections on Android, and Oathlight asks Google for read-only access to your tasks (the tasks.readonly permission) only when you tap Connect."
+     ],
+     [
+      "p",
+      "What we read: the names of your task lists and your open tasks — title, notes, due date, and which task a subtask belongs to. We do not ask for completed, hidden or deleted tasks, and we never change or delete anything in Google."
+     ],
+     [
+      "p",
+      "What we keep: only the tasks you choose to bring over. Each becomes an ordinary Oathlight task with its title, its notes (open subtasks become lines of the note), its due date and, if you leave that switch on, the list’s name as its tag. From then on it is stored and deleted like any of your tasks. Your phone also remembers which Google tasks it has brought over, so a task you deleted here does not come back."
+     ],
+     [
+      "p",
+      "The access key Google gives the app stays on your phone and is sent only to Google; it never reaches our server. Your tasks are read only while the import screen is open — nothing runs in the background. *Disconnect* on that screen withdraws the access at Google; you can also remove it at [myaccount.google.com/permissions](https://myaccount.google.com/permissions)."
+     ],
+     [
+      "p",
+      "Oathlight’s use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. The data is used only to show you your own tasks in Oathlight. It is not used for advertising, not sold, not transferred to anyone else, not read by people unless you ask us to or the law requires it, and not used to train AI models."
+     ]
+    ]
+   },
+   {
     "title": "Storage and deletion",
     "blocks": [
      [

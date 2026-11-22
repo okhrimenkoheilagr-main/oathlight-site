@@ -261,6 +261,31 @@
     ]
    },
    {
+    "title": "Google Tasks",
+    "blocks": [
+     [
+      "p",
+      "Conectar Google Tasks es opcional. Se ofrece en Ajustes → Conexiones en Android, y Oathlight solo pide a Google acceso de lectura a tus tareas (el permiso tasks.readonly) cuando tocas Conectar."
+     ],
+     [
+      "p",
+      "Lo que leemos: los nombres de tus listas y tus tareas abiertas — título, notas, fecha de vencimiento y a qué tarea pertenece una subtarea. No pedimos las tareas completadas, ocultas ni eliminadas, y nunca cambiamos ni borramos nada en Google."
+     ],
+     [
+      "p",
+      "Lo que guardamos: solo las tareas que decides traer. Cada una se convierte en una tarea normal de Oathlight con su título, sus notas (las subtareas abiertas pasan a ser líneas de la nota), su fecha y, si dejas activado ese interruptor, el nombre de la lista como etiqueta. A partir de ahí se guarda y se borra como cualquier otra tarea tuya. Tu teléfono también recuerda qué tareas de Google ya trajo, para que una tarea que borraste aquí no vuelva."
+     ],
+     [
+      "p",
+      "La clave de acceso que Google da a la app se queda en tu teléfono y solo se envía a Google; nunca llega a nuestro servidor. Tus tareas solo se leen mientras la pantalla de importación está abierta — nada funciona en segundo plano. *Desconectar* en esa pantalla retira el acceso en Google; también puedes quitarlo en [myaccount.google.com/permissions](https://myaccount.google.com/permissions)."
+     ],
+     [
+      "p",
+      "El uso que hace Oathlight de la información recibida de las API de Google, y su transferencia a cualquier otra app, cumple la [Política de datos de usuario de los servicios de API de Google](https://developers.google.com/terms/api-services-user-data-policy), incluidos los requisitos de uso limitado (Limited Use). Los datos solo se usan para mostrarte tus propias tareas en Oathlight. No se usan para publicidad, no se venden, no se transfieren a nadie, nadie los lee salvo que tú lo pidas o la ley lo exija, y no se usan para entrenar modelos de IA."
+     ]
+    ]
+   },
+   {
     "title": "Conservación y eliminación",
     "blocks": [
      [
