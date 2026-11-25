@@ -281,7 +281,11 @@
      ],
      [
       "p",
-      "L’uso da parte di Oathlight delle informazioni ricevute dalle API di Google, e il loro trasferimento a qualsiasi altra app, rispettano le [Norme sui dati utente dei servizi API di Google](https://developers.google.com/terms/api-services-user-data-policy), inclusi i requisiti di uso limitato (Limited Use). I dati servono solo a mostrarti i tuoi compiti in Oathlight. Non sono usati per la pubblicità, non sono venduti, non sono trasferiti a nessuno, non sono letti da persone se non su tua richiesta o quando la legge lo impone, e non sono usati per addestrare modelli di IA."
+      "Chi altro li conserva, come sono protetti e per quanto restano: i compiti portati sono conservati nel nostro database su Supabase, che lo ospita per noi come responsabile del trattamento — nessun altro li riceve. Viaggiano solo su connessioni cifrate (HTTPS/TLS), Supabase li cifra anche a riposo e ogni account può leggere solo i propri compiti. Restano finché non li cancelli o non cancelli l’account; cancellando l’account spariscono insieme a tutto il resto (vedi «Conservazione ed eliminazione»). L’elenco dei compiti Google già portati resta sul telefono finché non rimuovi l’app. Scollegare interrompe ogni lettura, ma non cancella i compiti già portati: cancellali nell’app se non li vuoi più."
+     ],
+     [
+      "p",
+      "L’uso da parte di Oathlight delle informazioni ricevute dalle API di Google, e il loro trasferimento a qualsiasi altra app, rispettano le [Norme sui dati utente dei servizi API di Google](https://developers.google.com/terms/api-services-user-data-policy), inclusi i requisiti di uso limitato (Limited Use). I dati servono solo a mostrarti i tuoi compiti in Oathlight. Non sono usati per la pubblicità, non sono venduti, non sono trasferiti a nessuno tranne al fornitore di hosting indicato sopra, che li conserva per noi, non sono letti da persone se non su tua richiesta o quando la legge lo impone, e non sono usati per addestrare modelli di IA."
      ]
     ]
    },

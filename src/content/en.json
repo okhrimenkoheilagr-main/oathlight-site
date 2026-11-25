@@ -281,7 +281,11 @@
      ],
      [
       "p",
-      "Oathlight’s use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. The data is used only to show you your own tasks in Oathlight. It is not used for advertising, not sold, not transferred to anyone else, not read by people unless you ask us to or the law requires it, and not used to train AI models."
+      "Who else holds it, how it is protected, how long it stays: imported tasks are stored in our database at Supabase, which hosts it for us as a processor — no other party receives them. They travel only over encrypted connections (HTTPS/TLS), are encrypted at rest by Supabase, and each account can read only its own tasks. They stay until you delete them or your account; deleting the account removes them with everything else (see “Storage and deletion”). The list of Google task ids already brought over stays on your phone until you remove the app. Disconnecting stops any further reading but does not delete tasks already brought over — delete them in the app if you no longer want them."
+     ],
+     [
+      "p",
+      "Oathlight’s use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. The data is used only to show you your own tasks in Oathlight. It is not used for advertising, not sold, not transferred to anyone apart from the hosting provider above that stores it for us, not read by people unless you ask us to or the law requires it, and not used to train AI models."
      ]
     ]
    },

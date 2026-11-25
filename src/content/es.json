@@ -281,7 +281,11 @@
      ],
      [
       "p",
-      "El uso que hace Oathlight de la información recibida de las API de Google, y su transferencia a cualquier otra app, cumple la [Política de datos de usuario de los servicios de API de Google](https://developers.google.com/terms/api-services-user-data-policy), incluidos los requisitos de uso limitado (Limited Use). Los datos solo se usan para mostrarte tus propias tareas en Oathlight. No se usan para publicidad, no se venden, no se transfieren a nadie, nadie los lee salvo que tú lo pidas o la ley lo exija, y no se usan para entrenar modelos de IA."
+      "Quién más los tiene, cómo se protegen y cuánto tiempo se guardan: las tareas traídas se guardan en nuestra base de datos en Supabase, que la aloja para nosotros como encargado del tratamiento; nadie más las recibe. Solo viajan por conexiones cifradas (HTTPS/TLS), Supabase también las cifra en reposo y cada cuenta solo puede leer sus propias tareas. Se guardan hasta que las borres a ellas o tu cuenta; al borrar la cuenta desaparecen con todo lo demás (ver «Conservación y eliminación»). La lista de tareas de Google ya traídas se queda en tu teléfono hasta que quites la app. Desconectar detiene cualquier lectura posterior, pero no borra las tareas ya traídas: bórralas en la app si ya no las quieres."
+     ],
+     [
+      "p",
+      "El uso que hace Oathlight de la información recibida de las API de Google, y su transferencia a cualquier otra app, cumple la [Política de datos de usuario de los servicios de API de Google](https://developers.google.com/terms/api-services-user-data-policy), incluidos los requisitos de uso limitado (Limited Use). Los datos solo se usan para mostrarte tus propias tareas en Oathlight. No se usan para publicidad, no se venden, no se transfieren a nadie salvo al proveedor de alojamiento indicado arriba, que los guarda para nosotros, nadie los lee salvo que tú lo pidas o la ley lo exija, y no se usan para entrenar modelos de IA."
      ]
     ]
    },

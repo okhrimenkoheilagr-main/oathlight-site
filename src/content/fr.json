@@ -281,7 +281,11 @@
      ],
      [
       "p",
-      "L’utilisation par Oathlight des informations reçues des API Google, et leur transfert à toute autre application, respectent le [Règlement sur les données utilisateur des services d’API Google](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d’utilisation limitée (Limited Use). Ces données servent uniquement à te montrer tes propres tâches dans Oathlight. Elles ne servent pas à la publicité, ne sont pas vendues, ne sont transmises à personne, ne sont lues par des personnes que si tu le demandes ou si la loi l’exige, et ne servent pas à entraîner des modèles d’IA."
+      "Qui d’autre les détient, comment elles sont protégées, combien de temps elles restent : les tâches ramenées sont stockées dans notre base de données chez Supabase, qui l’héberge pour nous en tant que sous-traitant — personne d’autre ne les reçoit. Elles ne circulent que par des connexions chiffrées (HTTPS/TLS), Supabase les chiffre aussi au repos, et chaque compte ne peut lire que ses propres tâches. Elles restent jusqu’à ce que tu les supprimes ou que tu supprimes ton compte ; la suppression du compte les efface avec tout le reste (voir « Conservation et suppression »). La liste des tâches Google déjà ramenées reste sur ton téléphone jusqu’à ce que tu supprimes l’app. Déconnecter arrête toute lecture, mais ne supprime pas les tâches déjà ramenées — supprime-les dans l’app si tu n’en veux plus."
+     ],
+     [
+      "p",
+      "L’utilisation par Oathlight des informations reçues des API Google, et leur transfert à toute autre application, respectent le [Règlement sur les données utilisateur des services d’API Google](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d’utilisation limitée (Limited Use). Ces données servent uniquement à te montrer tes propres tâches dans Oathlight. Elles ne servent pas à la publicité, ne sont pas vendues, ne sont transmises à personne hormis l’hébergeur ci-dessus qui les stocke pour nous, ne sont lues par des personnes que si tu le demandes ou si la loi l’exige, et ne servent pas à entraîner des modèles d’IA."
      ]
     ]
    },

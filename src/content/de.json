@@ -281,7 +281,11 @@
      ],
      [
       "p",
-      "Die Nutzung und Weitergabe von Informationen, die Oathlight über Google-APIs erhält, an andere Apps erfolgt gemäß der [Nutzerdatenrichtlinie für Google API-Dienste](https://developers.google.com/terms/api-services-user-data-policy), einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use). Die Daten dienen nur dazu, dir deine eigenen Aufgaben in Oathlight zu zeigen. Sie werden nicht für Werbung genutzt, nicht verkauft, an niemanden weitergegeben, von Menschen nur auf deine Bitte oder wenn das Gesetz es verlangt gelesen und nicht zum Training von KI-Modellen verwendet."
+      "Wer sie sonst hat, wie sie geschützt sind und wie lange sie bleiben: Geholte Aufgaben liegen in unserer Datenbank bei Supabase, das sie für uns als Auftragsverarbeiter hostet — niemand sonst erhält sie. Sie werden nur über verschlüsselte Verbindungen (HTTPS/TLS) übertragen, von Supabase auch im Ruhezustand verschlüsselt, und jedes Konto kann nur seine eigenen Aufgaben lesen. Sie bleiben, bis du sie oder dein Konto löschst; mit dem Konto verschwinden sie zusammen mit allem anderen (siehe „Speicherung und Löschung“). Die Liste der schon geholten Google-Aufgaben bleibt auf deinem Handy, bis du die App entfernst. Trennen beendet jedes weitere Lesen, löscht aber schon geholte Aufgaben nicht — lösche sie in der App, wenn du sie nicht mehr willst."
+     ],
+     [
+      "p",
+      "Die Nutzung und Weitergabe von Informationen, die Oathlight über Google-APIs erhält, an andere Apps erfolgt gemäß der [Nutzerdatenrichtlinie für Google API-Dienste](https://developers.google.com/terms/api-services-user-data-policy), einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use). Die Daten dienen nur dazu, dir deine eigenen Aufgaben in Oathlight zu zeigen. Sie werden nicht für Werbung genutzt, nicht verkauft, an niemanden außer dem oben genannten Hosting-Anbieter weitergegeben, der sie für uns speichert, von Menschen nur auf deine Bitte oder wenn das Gesetz es verlangt gelesen und nicht zum Training von KI-Modellen verwendet."
      ]
     ]
    },

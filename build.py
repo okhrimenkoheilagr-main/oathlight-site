@@ -26,9 +26,10 @@ PLAY_URL = '#'
 UPDATED = {'en': '22 November 2026', 'uk': '22 листопада 2026', 'de': '22. November 2026',
            'fr': '22 novembre 2026', 'es': '22 de noviembre de 2026', 'it': '22 novembre 2026'}
 # The privacy policy changes on its own schedule: Google sign-in and the copy of tasks on the phone
-# (20 November); what a party sees — heroes' names (22 November).
-PRIVACY_UPDATED = {'en': '22 November 2026', 'uk': '22 листопада 2026', 'de': '22. November 2026',
-                   'fr': '22 novembre 2026', 'es': '22 de noviembre de 2026', 'it': '22 novembre 2026'}
+# (20 November); what a party sees — heroes' names (22 November); Google Tasks — who holds the
+# imported tasks, how they are protected and kept (25 November, for Google's OAuth review).
+PRIVACY_UPDATED = {'en': '25 November 2026', 'uk': '25 листопада 2026', 'de': '25. November 2026',
+                   'fr': '25 novembre 2026', 'es': '25 de noviembre de 2026', 'it': '25 novembre 2026'}
 
 e = html.escape
 
