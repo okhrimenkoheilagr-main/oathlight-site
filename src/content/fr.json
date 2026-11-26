@@ -40,7 +40,7 @@
    ],
    [
     "Des groupes qui prennent fin",
-    "Quarante-huit heures aux côtés de deux autres voyageurs, puis le groupe se dissout. Treize marques, aucun mot. Rien à écrire : ni cruauté, ni bavardage."
+    "Vingt-quatre heures aux côtés de deux autres voyageurs, puis le groupe se dissout. Treize marques, aucun mot. Rien à écrire : ni cruauté, ni bavardage."
    ],
    [
     "Une grande, trois moyennes, cinq petites",
@@ -59,7 +59,7 @@
    ],
    [
     "Assieds-toi près d’un feu, ou pas",
-    "Un groupe de trois pendant quarante-huit heures, où l’on ne se connaît que par le nom de son héros : des marques seulement, réservé aux adultes. Quand il se termine, il disparaît, et personne ne t’attend."
+    "Un groupe de trois pendant vingt-quatre heures, où l’on ne se connaît que par le nom de son héros : des marques seulement, réservé aux adultes. Quand il se termine, il disparaît, et personne ne t’attend."
    ],
    [
     "Reviens quand tu veux",
@@ -248,11 +248,11 @@
     "blocks": [
      [
       "p",
-      "Un groupe, c’est trois personnes pendant quarante-huit heures. Il est facultatif et réservé aux adultes (18 ans et plus)."
+      "Un groupe, c’est trois personnes pendant vingt-quatre heures. Il est facultatif et réservé aux adultes (18 ans et plus)."
      ],
      [
       "p",
-      "Les autres membres voient le nom, la classe et le niveau de ton héros, le nombre de tâches faites et l’XP gagnée tant que le feu brûle, et les marques que tu envoies. Ils ne voient ni ton e-mail, ni ton nom de compte, ni tes tâches elles-mêmes, ni ton historique. Il n’y a ni texte, ni image, ni rien à écrire — garde donc ton vrai nom et ton e-mail hors du nom de ton héros."
+      "Les autres membres voient le nom, la classe et le niveau de ton héros, le nombre de tâches faites et l’XP gagnée tant que le feu brûle, et les marques que tu envoies. Ils ne voient ni ton e-mail, ni ton nom de compte, ni tes tâches elles-mêmes, ni ton historique. Il n’y a ni texte, ni image, ni rien à écrire — garde donc ton vrai nom et ton e-mail hors du nom de ton héros. Pendant trois jours après la fin du feu, le groupe voit un récapitulatif : les mêmes noms, tâches et XP, le nombre de marques envoyées et la plus fréquente ; ensuite il est supprimé."
      ],
      [
       "p",
@@ -321,7 +321,7 @@
        ],
        [
         "Participation au groupe et marques",
-        "les 24 heures du groupe, puis supprimées avec lui"
+        "marques : tant que le feu brûle (24 heures), puis supprimées — seul leur nombre reste pour le récapitulatif ; participation : les 24 heures du feu et 3 jours pour le récapitulatif, puis supprimée avec le groupe"
        ],
        [
         "Signalements concernant un membre",
@@ -422,7 +422,7 @@
     "blocks": [
      [
       "p",
-      "Dans un groupe, les membres ne se connaissent que par le nom de leur héros. Les groupes durent quarante-huit heures et n’autorisent que les marques intégrées ; le nom d’un héros ne doit pas être offensant. Tu peux partir à tout moment. Un membre peut être signalé depuis le groupe, y compris pour un nom offensant ; les signalements sont examinés par une personne et peuvent entraîner l’exclusion des groupes ou d’Oathlight. Nous pouvons désactiver entièrement les groupes, pour tout le monde et sans préavis, si la sécurité l’exige."
+      "Dans un groupe, les membres ne se connaissent que par le nom de leur héros. Les groupes durent vingt-quatre heures et n’autorisent que les marques intégrées ; le nom d’un héros ne doit pas être offensant. Tu peux partir à tout moment. Un membre peut être signalé depuis le groupe, y compris pour un nom offensant ; les signalements sont examinés par une personne et peuvent entraîner l’exclusion des groupes ou d’Oathlight. Nous pouvons désactiver entièrement les groupes, pour tout le monde et sans préavis, si la sécurité l’exige."
      ]
     ]
    },
@@ -500,7 +500,7 @@
        "Les groupes — le seul endroit où les membres se croisent — sont fermés à toute personne de moins de 18 ans, grâce au signal d’âge de Google Play ou à une vérification d’âge neutre.",
        "Il n’y a ni texte, ni image, ni voix, ni lien, ni profil. Les membres ne peuvent échanger que treize marques intégrées.",
        "Les membres ne se connaissent que par le nom de leur héros et ne peuvent ni se retrouver, ni se suivre, ni se contacter en dehors d’un groupe.",
-       "Un groupe se dissout au bout de quarante-huit heures et ne peut pas être prolongé.",
+       "Un groupe se dissout au bout de vingt-quatre heures et ne peut pas être prolongé.",
        "Les groupes peuvent être désactivés pour tout le monde d’un seul coup si cela devient nécessaire."
       ]
      ]

@@ -40,7 +40,7 @@
    ],
    [
     "Grupos que terminan",
-    "Cuarenta y ocho horas junto a otros dos caminantes, y el grupo se disuelve. Trece marcas, ninguna palabra. Sin nada que escribir no hay crueldad ni charla vacía."
+    "Veinticuatro horas junto a otros dos caminantes, y el grupo se disuelve. Trece marcas, ninguna palabra. Sin nada que escribir no hay crueldad ni charla vacía."
    ],
    [
     "Una grande, tres medianas, cinco pequeñas",
@@ -59,7 +59,7 @@
    ],
    [
     "Siéntate junto a una hoguera, o no",
-    "Un grupo de tres durante cuarenta y ocho horas, donde solo os conocéis por el nombre de vuestros héroes: solo marcas, solo adultos. Cuando termina desaparece, y nadie te espera."
+    "Un grupo de tres durante veinticuatro horas, donde solo os conocéis por el nombre de vuestros héroes: solo marcas, solo adultos. Cuando termina desaparece, y nadie te espera."
    ],
    [
     "Vuelve cuando quieras",
@@ -248,11 +248,11 @@
     "blocks": [
      [
       "p",
-      "Un grupo son tres personas durante cuarenta y ocho horas. Es opcional y está abierto solo a adultos (mayores de 18)."
+      "Un grupo son tres personas durante veinticuatro horas. Es opcional y está abierto solo a adultos (mayores de 18)."
      ],
      [
       "p",
-      "Los demás miembros ven el nombre, la clase y el nivel de tu héroe, cuántas tareas has hecho y la XP ganada mientras arde la hoguera, y las marcas que envías. No pueden ver tu correo, tu nombre de cuenta, tus tareas en sí ni tu historial. No hay texto, ni imágenes, ni nada que escribir, así que no pongas tu nombre real ni tu correo en el nombre de tu héroe."
+      "Los demás miembros ven el nombre, la clase y el nivel de tu héroe, cuántas tareas has hecho y la XP ganada mientras arde la hoguera, y las marcas que envías. No pueden ver tu correo, tu nombre de cuenta, tus tareas en sí ni tu historial. No hay texto, ni imágenes, ni nada que escribir, así que no pongas tu nombre real ni tu correo en el nombre de tu héroe. Durante tres días después de que la hoguera se apague, el grupo ve un resumen: los mismos nombres, tareas y XP, cuántas marcas se enviaron y cuál más a menudo; después se elimina."
      ],
      [
       "p",
@@ -321,7 +321,7 @@
        ],
        [
         "Participación en el grupo y marcas",
-        "las 24 horas del grupo; luego se eliminan con él"
+        "marcas: mientras arde la hoguera (24 horas), luego se eliminan; para el resumen solo queda su número; participación: las 24 horas de la hoguera y 3 días para el resumen, luego se elimina con el grupo"
        ],
        [
         "Denuncias sobre un miembro",
@@ -422,7 +422,7 @@
     "blocks": [
      [
       "p",
-      "En un grupo, los miembros solo se conocen por el nombre de sus héroes. Los grupos duran cuarenta y ocho horas y solo permiten las marcas integradas; el nombre de un héroe no puede ser ofensivo. Puedes salir cuando quieras. Se puede denunciar a un miembro desde el propio grupo, también por un nombre ofensivo; las denuncias las revisa una persona y pueden suponer la expulsión de los grupos o de Oathlight. Podemos desactivar los grupos por completo, para todos y sin aviso, si la seguridad lo exige."
+      "En un grupo, los miembros solo se conocen por el nombre de sus héroes. Los grupos duran veinticuatro horas y solo permiten las marcas integradas; el nombre de un héroe no puede ser ofensivo. Puedes salir cuando quieras. Se puede denunciar a un miembro desde el propio grupo, también por un nombre ofensivo; las denuncias las revisa una persona y pueden suponer la expulsión de los grupos o de Oathlight. Podemos desactivar los grupos por completo, para todos y sin aviso, si la seguridad lo exige."
      ]
     ]
    },
@@ -500,7 +500,7 @@
        "Los grupos —el único lugar donde los miembros coinciden— están cerrados a cualquier persona menor de 18, mediante la señal de edad de Google Play o una comprobación de edad neutral.",
        "No hay texto, ni imágenes, ni voz, ni enlaces, ni perfiles. Los miembros solo pueden intercambiar trece marcas integradas.",
        "Los miembros solo se conocen por el nombre de sus héroes y no pueden encontrarse, seguirse ni contactarse fuera de un grupo.",
-       "Un grupo se disuelve a las cuarenta y ocho horas y no se puede prolongar.",
+       "Un grupo se disuelve a las veinticuatro horas y no se puede prolongar.",
        "Los grupos pueden desactivarse para todos a la vez si alguna vez hace falta."
       ]
      ]

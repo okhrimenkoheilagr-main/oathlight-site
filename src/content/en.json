@@ -40,7 +40,7 @@
    ],
    [
     "Parties that end",
-    "Forty-eight hours beside two other wanderers, then it dissolves. Thirteen marks, no words. Nothing to type means no cruelty and no small talk."
+    "Twenty-four hours beside two other wanderers, then it dissolves. Thirteen marks, no words. Nothing to type means no cruelty and no small talk."
    ],
    [
     "One large, three medium, five small",
@@ -59,7 +59,7 @@
    ],
    [
     "Sit by a fire, or don't",
-    "A party of three for forty-eight hours, known only by your heroes’ names: marks only, adults only. When it ends it is gone, and nobody is waiting on you."
+    "A party of three for twenty-four hours, known only by your heroes’ names: marks only, adults only. When it ends it is gone, and nobody is waiting on you."
    ],
    [
     "Come back whenever",
@@ -248,11 +248,11 @@
     "blocks": [
      [
       "p",
-      "A party is three people for forty-eight hours. It is optional and open only to adults (18+)."
+      "A party is three people for twenty-four hours. It is optional and open only to adults (18+)."
      ],
      [
       "p",
-      "Other members see your hero’s name, class and level, how many tasks you have done and the XP earned while the fire burns, and the marks you send. They cannot see your email, your account name, your tasks themselves or your history. There is no text, no images and nothing to type — so keep your real name and email out of your hero’s name."
+      "Other members see your hero’s name, class and level, how many tasks you have done and the XP earned while the fire burns, and the marks you send. They cannot see your email, your account name, your tasks themselves or your history. There is no text, no images and nothing to type — so keep your real name and email out of your hero’s name. For three days after the fire burns out, the party sees a summary of it: the same names, tasks and XP, how many marks were given and which one most often; then it is deleted."
      ],
      [
       "p",
@@ -321,7 +321,7 @@
        ],
        [
         "Party membership and marks",
-        "the 24 hours of the party, then removed with the party"
+        "marks: while the fire burns (24 hours), then deleted — only their number stays for the summary; membership: the 24 hours of the fire and 3 days for the summary, then deleted with the party"
        ],
        [
         "Reports about a party member",
@@ -422,7 +422,7 @@
     "blocks": [
      [
       "p",
-      "In a party, members know each other only by their heroes’ names. Parties last forty-eight hours and allow only the built-in marks; a hero’s name must not be offensive. You may leave at any time. You can report a member from inside the party, including for an offensive name; reports are reviewed by a person and may lead to removal from parties or from Oathlight. We may switch parties off entirely, for everyone, without notice, if safety requires it."
+      "In a party, members know each other only by their heroes’ names. Parties last twenty-four hours and allow only the built-in marks; a hero’s name must not be offensive. You may leave at any time. You can report a member from inside the party, including for an offensive name; reports are reviewed by a person and may lead to removal from parties or from Oathlight. We may switch parties off entirely, for everyone, without notice, if safety requires it."
      ]
     ]
    },
@@ -500,7 +500,7 @@
        "Parties — the only place members meet — are closed to anyone under 18, using Google Play's age signal or a neutral age check.",
        "There is no text, no images, no voice, no links and no profiles. Members can exchange only thirteen built-in marks.",
        "Members know each other only by their heroes’ names and cannot find, follow or contact one another outside a party.",
-       "A party dissolves after forty-eight hours and cannot be extended.",
+       "A party dissolves after twenty-four hours and cannot be extended.",
        "Parties can be switched off for everyone at once if we ever need to."
       ]
      ]

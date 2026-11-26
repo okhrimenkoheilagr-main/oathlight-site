@@ -23,12 +23,13 @@ PAGES = ['index', 'privacy', 'terms', 'delete', 'safety']
 RELEASED = False
 PLAY_URL = '#'
 # Terms and safety: party members are known by their heroes' names (22 November).
-UPDATED = {'en': '22 November 2026', 'uk': '22 листопада 2026', 'de': '22. November 2026',
-           'fr': '22 novembre 2026', 'es': '22 de noviembre de 2026', 'it': '22 novembre 2026'}
+UPDATED = {'en': '26 November 2026', 'uk': '26 листопада 2026', 'de': '26. November 2026',
+           'fr': '26 novembre 2026', 'es': '26 de noviembre de 2026', 'it': '26 novembre 2026'}
 # The privacy policy changes on its own schedule: Google sign-in and the copy of tasks on the phone
 # (20 November); what a party sees — heroes' names (22 November); Google Tasks — who holds the
 # imported tasks, how they are protected and kept (25 November, for Google's OAuth review);
-# a party lasts 24 hours, so marks are kept for 24 (26 November).
+# a party lasts 24 hours; marks go when the fire goes out, the party 3 days later, after the
+# fire summary (26 November).
 PRIVACY_UPDATED = {'en': '26 November 2026', 'uk': '26 листопада 2026', 'de': '26. November 2026',
                    'fr': '26 novembre 2026', 'es': '26 de noviembre de 2026', 'it': '26 novembre 2026'}
 

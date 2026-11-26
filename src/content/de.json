@@ -40,7 +40,7 @@
    ],
    [
     "Gruppen, die enden",
-    "Achtundvierzig Stunden neben zwei anderen Wanderern, dann löst sich die Gruppe auf. Dreizehn Zeichen, keine Worte. Nichts zu tippen heißt: keine Grausamkeit, kein Smalltalk."
+    "Vierundzwanzig Stunden neben zwei anderen Wanderern, dann löst sich die Gruppe auf. Dreizehn Zeichen, keine Worte. Nichts zu tippen heißt: keine Grausamkeit, kein Smalltalk."
    ],
    [
     "Eine große, drei mittlere, fünf kleine",
@@ -59,7 +59,7 @@
    ],
    [
     "Setz dich ans Feuer – oder nicht",
-    "Eine Dreiergruppe für achtundvierzig Stunden, in der man sich nur unter den Namen der Helden kennt: nur Zeichen, nur Erwachsene. Wenn sie endet, ist sie fort, und niemand wartet auf dich."
+    "Eine Dreiergruppe für vierundzwanzig Stunden, in der man sich nur unter den Namen der Helden kennt: nur Zeichen, nur Erwachsene. Wenn sie endet, ist sie fort, und niemand wartet auf dich."
    ],
    [
     "Komm zurück, wann du willst",
@@ -248,11 +248,11 @@
     "blocks": [
      [
       "p",
-      "Eine Gruppe sind drei Menschen für achtundvierzig Stunden. Sie ist freiwillig und nur für Erwachsene (ab 18) offen."
+      "Eine Gruppe sind drei Menschen für vierundzwanzig Stunden. Sie ist freiwillig und nur für Erwachsene (ab 18) offen."
      ],
      [
       "p",
-      "Andere Mitglieder sehen Namen, Klasse und Stufe deines Helden, wie viele Aufgaben du erledigt und wie viel XP du verdient hast, solange das Feuer brennt, und die Zeichen, die du sendest. Sie sehen weder deine E-Mail noch deinen Kontonamen, deine Aufgaben selbst oder deine Historie. Es gibt keinen Text, keine Bilder und nichts zu tippen – lass also deinen echten Namen und deine E-Mail aus dem Namen deines Helden heraus."
+      "Andere Mitglieder sehen Namen, Klasse und Stufe deines Helden, wie viele Aufgaben du erledigt und wie viel XP du verdient hast, solange das Feuer brennt, und die Zeichen, die du sendest. Sie sehen weder deine E-Mail noch deinen Kontonamen, deine Aufgaben selbst oder deine Historie. Es gibt keinen Text, keine Bilder und nichts zu tippen – lass also deinen echten Namen und deine E-Mail aus dem Namen deines Helden heraus. Drei Tage nachdem das Feuer heruntergebrannt ist, sieht die Gruppe noch eine Zusammenfassung: dieselben Namen, Aufgaben und XP, wie viele Zeichen gesendet wurden und welches am häufigsten; danach wird sie gelöscht."
      ],
      [
       "p",
@@ -321,7 +321,7 @@
        ],
        [
         "Gruppenmitgliedschaft und Zeichen",
-        "die 24 Stunden der Gruppe, dann mit der Gruppe entfernt"
+        "Zeichen: solange das Feuer brennt (24 Stunden), dann gelöscht – für die Zusammenfassung bleibt nur ihre Anzahl; Mitgliedschaft: die 24 Stunden des Feuers und 3 Tage für die Zusammenfassung, dann mit der Gruppe gelöscht"
        ],
        [
         "Meldungen über ein Gruppenmitglied",
@@ -422,7 +422,7 @@
     "blocks": [
      [
       "p",
-      "In einer Gruppe kennen sich die Mitglieder nur unter den Namen ihrer Helden. Gruppen dauern achtundvierzig Stunden und erlauben nur die eingebauten Zeichen; der Name eines Helden darf nicht beleidigend sein. Du kannst jederzeit gehen. Ein Mitglied lässt sich aus der Gruppe heraus melden, auch wegen eines beleidigenden Namens; Meldungen prüft ein Mensch, und sie können zum Ausschluss aus Gruppen oder aus Oathlight führen. Wir können Gruppen für alle ohne Ankündigung ganz abschalten, wenn die Sicherheit es verlangt."
+      "In einer Gruppe kennen sich die Mitglieder nur unter den Namen ihrer Helden. Gruppen dauern vierundzwanzig Stunden und erlauben nur die eingebauten Zeichen; der Name eines Helden darf nicht beleidigend sein. Du kannst jederzeit gehen. Ein Mitglied lässt sich aus der Gruppe heraus melden, auch wegen eines beleidigenden Namens; Meldungen prüft ein Mensch, und sie können zum Ausschluss aus Gruppen oder aus Oathlight führen. Wir können Gruppen für alle ohne Ankündigung ganz abschalten, wenn die Sicherheit es verlangt."
      ]
     ]
    },
@@ -500,7 +500,7 @@
        "Gruppen – der einzige Ort, an dem Mitglieder aufeinandertreffen – sind für alle unter 18 gesperrt, über das Alterssignal von Google Play oder eine neutrale Altersprüfung.",
        "Es gibt keinen Text, keine Bilder, keine Sprache, keine Links und keine Profile. Mitglieder können nur dreizehn eingebaute Zeichen austauschen.",
        "Mitglieder kennen sich nur unter den Namen ihrer Helden und können einander außerhalb einer Gruppe weder finden noch folgen noch kontaktieren.",
-       "Eine Gruppe löst sich nach achtundvierzig Stunden auf und kann nicht verlängert werden.",
+       "Eine Gruppe löst sich nach vierundzwanzig Stunden auf und kann nicht verlängert werden.",
        "Gruppen lassen sich für alle auf einmal abschalten, falls das je nötig wird."
       ]
      ]
