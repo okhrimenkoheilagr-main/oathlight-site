@@ -120,13 +120,14 @@
    "Todo tu historial de tareas, pasadas y planeadas, con sus notas y motivos",
    "Tu participación en grupos y las marcas que enviaste",
    "Tus ajustes, recordatorios y tokens de notificación",
+   "El registro de tu suscripción (la suscripción en sí sigue en Google; ver abajo)",
    "La propia cuenta y su dirección de correo"
   ],
   "removedNote": "Es permanente. No hay exportación, y por nuestra parte no se puede reconstruir nada una vez pasados los treinta días.",
   "keptNote": "Se conserva una cosa: si denunciaste a un miembro de un grupo, o te denunciaron, esa denuncia se guarda para la revisión de seguridad, desvinculada de tu cuenta.",
   "warnFlag": "Lee esta parte",
   "warnTitle": "Eliminar la cuenta no cancela una suscripción",
-  "warnText": "Oathlight no tiene hoy ningún plan de pago. Si alguna vez compras una suscripción a través de Google Play, la gestiona Google, no nosotros: eliminar tu cuenta de Oathlight la deja activa. Cancélala aparte en Play Store: *Play Store → tu perfil → Pagos y suscripciones → Suscripciones*.",
+  "warnText": "Una suscripción comprada a través de Google Play la gestiona Google, no nosotros: eliminar tu cuenta de Oathlight la deja activa y Google sigue cobrándola. Cancélala aparte en Play Store: *Play Store → tu perfil → Pagos y suscripciones → Suscripciones*.",
   "timingTitle": "Plazos",
   "timing": [
    [
@@ -194,6 +195,18 @@
      ],
      [
       "h",
+      "Si te suscribes"
+     ],
+     [
+      "ul",
+      [
+       "Tu suscripción tal como la comunica Google Play: el token de compra, el plan (mensual o anual), su estado, la fecha hasta la que está pagada, si se renueva, si fue una compra de prueba y cuándo la comprobamos por última vez.",
+       "Con la compra, la app entrega a Google Play una forma codificada del identificador de tu cuenta, para poder asociar la compra a tu cuenta. El pago en sí se hace por completo en Google Play: nunca vemos tu tarjeta, tus datos bancarios ni tu dirección de facturación.",
+       "Si hemos dado a tu cuenta acceso gratuito; por ejemplo, por probar la app antes de su lanzamiento."
+      ]
+     ],
+     [
+      "h",
       "En este sitio web"
      ],
      [
@@ -222,6 +235,10 @@
      ],
      [
       "p",
+      "Para comprobar tu suscripción: cuando compras, cuando se abre la app (como mucho cada 12 horas, o en cuanto pasa la fecha pagada) y cuando abres la pantalla «Suscripción», nuestro servidor pregunta a Google Play por tu compra y confirma las nuevas. Así siguen abiertos los niveles más allá de los gratuitos."
+     ],
+     [
+      "p",
       "Para responderte: los correos de ayuda y las solicitudes de eliminación los lee y responde una persona."
      ],
      [
@@ -238,7 +255,7 @@
        "Supabase: aloja la base de datos y el inicio de sesión.",
        "Google Sign-In: confirma quién eres si eliges iniciar sesión con Google.",
        "Google (Firebase Cloud Messaging) y Expo: entregan las notificaciones push a tu dispositivo, si las permites.",
-       "Google Play: distribuye la app y, si algún día hay un plan de pago, gestiona el cobro. Nunca vemos los datos de la tarjeta."
+       "Google Play: distribuye la app y gestiona el cobro de las suscripciones; nuestro servidor le consulta tus compras mediante la Google Play Developer API. Nunca vemos los datos de la tarjeta."
       ]
      ]
     ]
@@ -310,6 +327,10 @@
        [
         "Cuenta, héroes, tareas, ajustes",
         "hasta que elimines la cuenta, y después 30 días en los que puedes deshacerlo"
+       ],
+       [
+        "Registros de suscripción",
+        "hasta que eliminas la cuenta; Google conserva sus propios registros del pedido según su política de privacidad"
        ],
        [
         "Copia de tus tareas en el teléfono",
@@ -436,11 +457,22 @@
     ]
    },
    {
-    "title": "Precio",
+    "title": "Precio y suscripción",
     "blocks": [
      [
       "p",
-      "Oathlight es gratuito hoy. Más adelante podría ofrecerse un plan de pago; no se cobrará nada sin tu compra expresa a través de Google Play, y lo que ya hayas ganado no se te quitará."
+      "Los niveles del 1 al 12 son gratis. A partir del nivel 13, el camino sigue con una suscripción contratada a través de Google Play, mensual o anual. Antes de comprar, Google Play muestra el precio exacto en tu moneda, con los impuestos incluidos."
+     ],
+     [
+      "ul",
+      [
+       "La suscripción se renueva automáticamente al final de cada periodo hasta que la canceles.",
+       "Puedes cancelarla en cualquier momento en Google Play: *Play Store → tu perfil → Pagos y suscripciones → Suscripciones*. Sigue activa hasta el final del periodo ya pagado. Eliminar tu cuenta de Oathlight no la cancela.",
+       "Los pagos, las renovaciones y los reembolsos los gestiona Google Play según sus propias condiciones. Si algo salió mal, escríbenos también.",
+       "Si una suscripción termina, no se te quita nada: tu héroe, tus niveles y tus tareas siguen como están y a la vista; las tareas nuevas y la experiencia esperan a que vuelvas a suscribirte.",
+       "Si el precio cambia, Google Play te avisa con antelación y, cuando se requiere tu consentimiento, el nuevo precio solo se aplica cuando lo aceptas.",
+       "Podemos dar acceso gratuito a una cuenta; por ejemplo, a quienes probaron Oathlight antes de su lanzamiento."
+      ]
      ]
     ]
    },

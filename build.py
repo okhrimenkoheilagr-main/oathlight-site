@@ -22,16 +22,25 @@ LANG_NAMES = {'en': 'English', 'uk': 'Українська', 'de': 'Deutsch', 'f
 PAGES = ['index', 'privacy', 'terms', 'delete', 'safety']
 RELEASED = False
 PLAY_URL = '#'
-# Terms and safety: party members are known by their heroes' names (22 November).
-UPDATED = {'en': '26 November 2026', 'uk': '26 листопада 2026', 'de': '26. November 2026',
-           'fr': '26 novembre 2026', 'es': '26 de noviembre de 2026', 'it': '26 novembre 2026'}
+# Terms and safety: party members are known by their heroes' names (22 November);
+# terms and the deletion page: the subscription (27 November).
+UPDATED = {'en': '27 November 2026', 'uk': '27 листопада 2026', 'de': '27. November 2026',
+           'fr': '27 novembre 2026', 'es': '27 de noviembre de 2026', 'it': '27 novembre 2026'}
 # The privacy policy changes on its own schedule: Google sign-in and the copy of tasks on the phone
 # (20 November); what a party sees — heroes' names (22 November); Google Tasks — who holds the
 # imported tasks, how they are protected and kept (25 November, for Google's OAuth review);
 # a party lasts 24 hours; marks go when the fire goes out, the party 3 days later, after the
-# fire summary (26 November).
-PRIVACY_UPDATED = {'en': '26 November 2026', 'uk': '26 листопада 2026', 'de': '26. November 2026',
-                   'fr': '26 novembre 2026', 'es': '26 de noviembre de 2026', 'it': '26 novembre 2026'}
+# fire summary (26 November); the subscription — what is kept, how it is checked, how long (27 November).
+# Safety standards: party members known by their heroes' names, a 24-hour fire (26 November).
+SAFETY_UPDATED = {'en': '26 November 2026', 'uk': '26 листопада 2026', 'de': '26. November 2026',
+                  'fr': '26 novembre 2026', 'es': '26 de noviembre de 2026', 'it': '26 novembre 2026'}
+PRIVACY_UPDATED = {'en': '27 November 2026', 'uk': '27 листопада 2026', 'de': '27. November 2026',
+                   'fr': '27 novembre 2026', 'es': '27 de noviembre de 2026', 'it': '27 novembre 2026'}
+
+
+def updated_on(page, lang):
+    return {'privacy': PRIVACY_UPDATED, 'safety': SAFETY_UPDATED}.get(page, UPDATED)[lang]
+
 
 e = html.escape
 
@@ -215,7 +224,9 @@ def block(b):
     if kind == 'h':
         return f'<h3>{e(b[1])}</h3>'
     if kind == 'ul':
-        return '<ul>' + ''.join(f'<li>{rich(i)}</li>' for i in b[1]) + '</ul>'
+        # One span per item: the item is a flex row (bullet, text), so a link or an
+        # emphasis left bare would become a column of its own.
+        return '<ul>' + ''.join(f'<li><span>{rich(i)}</span></li>' for i in b[1]) + '</ul>'
     if kind == 'quote':
         return f'<blockquote>{rich(b[1])}</blockquote>'
     if kind == 'table':
@@ -238,7 +249,7 @@ def page_legal(c, lang, page):
     <div class="legal">
       <p class="kicker">{e(d['kicker'])}</p>
       <h1 class="page-title">{e(d['title'])}</h1>
-      <p class="updated">{e(c['nav']['updated'])} {(PRIVACY_UPDATED if page == 'privacy' else UPDATED)[lang]}</p>
+      <p class="updated">{e(c['nav']['updated'])} {updated_on(page, lang)}</p>
       <p class="page-lead">{rich(d['lead'])}</p>
       <div class="legal-grid">
         <nav class="toc" aria-label="{e(c['nav']['contents'])}">

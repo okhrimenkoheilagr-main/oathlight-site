@@ -120,13 +120,14 @@
    "Deine gesamte Aufgabenhistorie, vergangen und geplant, mit Notizen und Gründen",
    "Gruppenmitgliedschaft und die Zeichen, die du gesendet hast",
    "Deine Einstellungen, Erinnerungen und Benachrichtigungs-Token",
+   "Der Eintrag zu deinem Abo (das Abo selbst bleibt bei Google – siehe unten)",
    "Das Konto selbst und seine E-Mail-Adresse"
   ],
   "removedNote": "Das ist endgültig. Es gibt keinen Export, und nach Ablauf der dreißig Tage lässt sich von unserer Seite nichts wiederherstellen.",
   "keptNote": "Eines bleibt: Wenn du ein Gruppenmitglied gemeldet hast oder gemeldet wurdest, bleibt diese Meldung zur Sicherheitsprüfung erhalten – losgelöst von deinem Konto.",
   "warnFlag": "Lies diesen Teil",
   "warnTitle": "Das Löschen des Kontos kündigt kein Abo",
-  "warnText": "Oathlight hat heute keinen kostenpflichtigen Tarif. Solltest du jemals ein Abo über Google Play kaufen, liegt es bei Google, nicht bei uns – das Löschen deines Oathlight-Kontos lässt es weiterlaufen. Kündige es separat im Play Store: *Play Store → dein Profil → Zahlungen und Abos → Abos*.",
+  "warnText": "Ein über Google Play gekauftes Abo liegt bei Google, nicht bei uns – das Löschen deines Oathlight-Kontos lässt es weiterlaufen, und Google berechnet es weiter. Kündige es separat im Play Store: *Play Store → dein Profil → Zahlungen und Abos → Abos*.",
   "timingTitle": "Fristen",
   "timing": [
    [
@@ -194,6 +195,18 @@
      ],
      [
       "h",
+      "Wenn du ein Abo abschließt"
+     ],
+     [
+      "ul",
+      [
+       "Dein Abo so, wie Google Play es meldet: das Kauf-Token, den Tarif (monatlich oder jährlich), seinen Status, das Datum, bis zu dem es bezahlt ist, ob es sich verlängert, ob es ein Testkauf war und wann wir es zuletzt geprüft haben.",
+       "Beim Kauf übergibt die App Google Play eine codierte Form deiner Kontokennung, damit der Kauf deinem Konto zugeordnet werden kann. Die Zahlung selbst läuft vollständig über Google Play: Deine Karte, deine Bankdaten oder deine Rechnungsadresse sehen wir nie.",
+       "Ob wir deinem Konto kostenlosen Zugang gegeben haben – zum Beispiel fürs Testen der App vor dem Start."
+      ]
+     ],
+     [
+      "h",
       "Auf dieser Website"
      ],
      [
@@ -222,6 +235,10 @@
      ],
      [
       "p",
+      "Um dein Abo zu prüfen: Beim Kauf, beim Öffnen der App (höchstens alle 12 Stunden oder sobald das bezahlte Datum vorbei ist) und wenn du den Bildschirm „Abo“ öffnest, fragt unser Server Google Play nach deinem Kauf und bestätigt neue Käufe. So bleiben die Stufen nach den kostenlosen offen."
+     ],
+     [
+      "p",
       "Um dir zu antworten: Support-Mails und Löschanfragen liest und beantwortet ein Mensch."
      ],
      [
@@ -238,7 +255,7 @@
        "Supabase – hostet die Datenbank und die Anmeldung.",
        "Google Sign-In – bestätigt, wer du bist, wenn du dich mit Google anmeldest.",
        "Google (Firebase Cloud Messaging) und Expo – stellen Push-Mitteilungen auf dein Gerät zu, wenn du sie erlaubst.",
-       "Google Play – vertreibt die App und wickelt, falls es je einen kostenpflichtigen Tarif gibt, die Zahlung ab. Kartendaten sehen wir nie."
+       "Google Play – vertreibt die App und wickelt die Zahlung von Abos ab; unser Server fragt es über die Google Play Developer API nach deinen Käufen. Kartendaten sehen wir nie."
       ]
      ]
     ]
@@ -310,6 +327,10 @@
        [
         "Konto, Helden, Aufgaben, Einstellungen",
         "bis du das Konto löschst, danach 30 Tage, in denen du es rückgängig machen kannst"
+       ],
+       [
+        "Abo-Einträge",
+        "bis du das Konto löschst; Google bewahrt eigene Bestelldaten nach seiner Datenschutzerklärung auf"
        ],
        [
         "Kopie deiner Aufgaben auf dem Telefon",
@@ -436,11 +457,22 @@
     ]
    },
    {
-    "title": "Preis",
+    "title": "Preis und Abo",
     "blocks": [
      [
       "p",
-      "Oathlight ist heute kostenlos. Ein kostenpflichtiger Tarif kann später kommen; ohne deinen ausdrücklichen Kauf über Google Play wird nichts berechnet, und was du bereits verdient hast, wird dir nicht genommen."
+      "Die Stufen 1 bis 12 sind kostenlos. Ab Stufe 13 geht der Weg mit einem Abo weiter, das über Google Play abgeschlossen wird – monatlich oder jährlich. Vor dem Kauf zeigt Google Play den genauen Preis in deiner Währung, einschließlich Steuern."
+     ],
+     [
+      "ul",
+      [
+       "Das Abo verlängert sich am Ende jedes Zeitraums automatisch, bis du es kündigst.",
+       "Kündigen kannst du jederzeit in Google Play: *Play Store → dein Profil → Zahlungen und Abos → Abos*. Es gilt bis zum Ende des bereits bezahlten Zeitraums. Das Löschen deines Oathlight-Kontos kündigt es nicht.",
+       "Zahlungen, Verlängerungen und Erstattungen wickelt Google Play nach seinen eigenen Bedingungen ab. Wenn etwas schiefgegangen ist, schreib auch uns.",
+       "Endet ein Abo, wird dir nichts genommen: Held, Stufen und Aufgaben bleiben, wie sie sind, und bleiben sichtbar; neue Aufgaben und Erfahrung warten, bis du wieder ein Abo abschließt.",
+       "Ändert sich der Preis, informiert dich Google Play vorab, und wo deine Zustimmung nötig ist, gilt der neue Preis erst, wenn du ihn annimmst.",
+       "Wir können einem Konto kostenlosen Zugang geben, zum Beispiel Menschen, die Oathlight vor dem Start getestet haben."
+      ]
      ]
     ]
    },

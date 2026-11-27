@@ -120,13 +120,14 @@
    "Tout ton historique de tâches, passées et prévues, avec leurs notes et leurs raisons",
    "Ta participation aux groupes et les marques envoyées",
    "Tes réglages, tes rappels et tes jetons de notification",
+   "Les données de ton abonnement (l’abonnement lui-même reste chez Google — voir ci-dessous)",
    "Le compte lui-même et son adresse e-mail"
   ],
   "removedNote": "C’est définitif. Il n’y a pas d’export, et rien ne peut être reconstruit de notre côté une fois les trente jours passés.",
   "keptNote": "Une chose est conservée : si tu as signalé un membre d’un groupe, ou si tu as été signalé, ce signalement reste pour examen de sécurité, détaché de ton compte.",
   "warnFlag": "Lis ce passage",
   "warnTitle": "Supprimer le compte n’annule pas un abonnement",
-  "warnText": "Oathlight n’a pas d’offre payante aujourd’hui. Si tu achètes un jour un abonnement via Google Play, il est géré par Google, pas par nous — supprimer ton compte Oathlight le laisse actif. Annule-le séparément dans le Play Store : *Play Store → ton profil → Paiements et abonnements → Abonnements*.",
+  "warnText": "Un abonnement acheté via Google Play est géré par Google, pas par nous — supprimer ton compte Oathlight le laisse actif, et Google continue de le facturer. Annule-le séparément dans le Play Store : *Play Store → ton profil → Paiements et abonnements → Abonnements*.",
   "timingTitle": "Délais",
   "timing": [
    [
@@ -194,6 +195,18 @@
      ],
      [
       "h",
+      "Si tu t’abonnes"
+     ],
+     [
+      "ul",
+      [
+       "Ton abonnement tel que Google Play le communique : le jeton d’achat, la formule (mensuelle ou annuelle), son état, la date jusqu’à laquelle il est payé, s’il se renouvelle, s’il s’agit d’un achat test et quand nous l’avons vérifié pour la dernière fois.",
+       "Lors d’un achat, l’appli transmet à Google Play une forme codée de l’identifiant de ton compte, pour que l’achat puisse être rattaché à ton compte. Le paiement lui-même se fait entièrement dans Google Play : nous ne voyons jamais ta carte, tes coordonnées bancaires ni ton adresse de facturation.",
+       "Si nous avons accordé à ton compte un accès gratuit — par exemple pour avoir testé l’appli avant sa sortie."
+      ]
+     ],
+     [
+      "h",
       "Sur ce site"
      ],
      [
@@ -222,6 +235,10 @@
      ],
      [
       "p",
+      "Pour vérifier ton abonnement : à l’achat, à l’ouverture de l’appli (au plus toutes les 12 heures, ou dès que la date payée est passée) et quand tu ouvres l’écran « Abonnement », notre serveur interroge Google Play sur ton achat et confirme les nouveaux. C’est ainsi que les niveaux au-delà des niveaux gratuits restent ouverts."
+     ],
+     [
+      "p",
       "Pour te répondre : les messages d’assistance et les demandes de suppression sont lus et traités par une personne."
      ],
      [
@@ -238,7 +255,7 @@
        "Supabase — héberge la base de données et la connexion.",
        "Google Sign-In — confirme ton identité si tu choisis de te connecter avec Google.",
        "Google (Firebase Cloud Messaging) et Expo — acheminent les notifications push vers ton appareil, si tu les autorises.",
-       "Google Play — distribue l’appli et, si une offre payante voit le jour, gère le paiement. Nous ne voyons jamais les données de carte."
+       "Google Play — distribue l’appli et gère le paiement des abonnements ; notre serveur l’interroge sur tes achats via la Google Play Developer API. Nous ne voyons jamais les données de carte."
       ]
      ]
     ]
@@ -310,6 +327,10 @@
        [
         "Compte, héros, tâches, réglages",
         "jusqu’à la suppression du compte, puis 30 jours pendant lesquels tu peux revenir en arrière"
+       ],
+       [
+        "Données d’abonnement",
+        "jusqu’à la suppression du compte ; Google conserve ses propres données de commande selon sa politique de confidentialité"
        ],
        [
         "Copie de tes tâches sur ton téléphone",
@@ -436,11 +457,22 @@
     ]
    },
    {
-    "title": "Prix",
+    "title": "Prix et abonnement",
     "blocks": [
      [
       "p",
-      "Oathlight est gratuit aujourd’hui. Une offre payante pourra être proposée plus tard ; rien ne sera facturé sans un achat explicite de ta part via Google Play, et ce que tu as déjà gagné ne te sera pas retiré."
+      "Les niveaux 1 à 12 sont gratuits. À partir du niveau 13, la route continue avec un abonnement souscrit via Google Play, mensuel ou annuel. Avant l’achat, Google Play affiche le prix exact dans ta devise, taxes comprises."
+     ],
+     [
+      "ul",
+      [
+       "L’abonnement se renouvelle automatiquement à la fin de chaque période jusqu’à ce que tu l’annules.",
+       "Tu peux l’annuler à tout moment dans Google Play : *Play Store → ton profil → Paiements et abonnements → Abonnements*. Il reste actif jusqu’à la fin de la période déjà payée. Supprimer ton compte Oathlight ne l’annule pas.",
+       "Les paiements, renouvellements et remboursements sont gérés par Google Play selon ses propres conditions. Si quelque chose s’est mal passé, écris-nous aussi.",
+       "Si un abonnement prend fin, rien ne t’est retiré : ton héros, tes niveaux et tes tâches restent tels quels et visibles ; les nouvelles tâches et l’expérience attendent que tu te réabonnes.",
+       "Si le prix change, Google Play te prévient à l’avance, et lorsque ton consentement est requis, le nouveau prix ne s’applique qu’une fois que tu l’as accepté.",
+       "Nous pouvons accorder un accès gratuit à un compte, par exemple aux personnes qui ont testé Oathlight avant sa sortie."
+      ]
      ]
     ]
    },
